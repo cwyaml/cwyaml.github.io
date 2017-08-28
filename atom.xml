@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>cwyaml&#39;s Notes</title>
+  <subtitle>web &amp; something</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.cwyaml.top/blog/"/>
+  <updated>2017-08-28T09:56:37.924Z</updated>
+  <id>http://www.cwyaml.top/blog/</id>
+  
+  <author>
+    <name>cwyaml</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最简单的翻墙方法</title>
+    <link href="http://www.cwyaml.top/blog/2017/03/01/host/"/>
+    <id>http://www.cwyaml.top/blog/2017/03/01/host/</id>
+    <published>2017-03-01T04:01:05.000Z</published>
+    <updated>2017-08-28T09:56:37.924Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/google.png&quot; alt=&quot;Markdown&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;分享一个可用的翻墙方法，解决 Google、Facebook、及 Twitter 等被墙问题。&lt;/p&gt;
+&lt;p&gt;&lt;div&gt;※※※ &lt;span id=&quot;yu-1&quot;&gt;&lt;strong&gt;本页面长期更新可用 hosts 文件。&lt;/strong&gt;&lt;/span&gt; ※※※&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="外面的世界" scheme="http://www.cwyaml.top/blog/categories/%E5%A4%96%E9%9D%A2%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+    
+    
+      <category term="翻墙" scheme="http://www.cwyaml.top/blog/tags/%E7%BF%BB%E5%A2%99/"/>
+    
+      <category term="hosts" scheme="http://www.cwyaml.top/blog/tags/hosts/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 使用中常见的问题及解决方法</title>
+    <link href="http://www.cwyaml.top/blog/2017/02/14/markdown/"/>
+    <id>http://www.cwyaml.top/blog/2017/02/14/markdown/</id>
+    <published>2017-02-14T13:05:06.000Z</published>
+    <updated>2017-08-28T10:04:56.312Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/markdown.jpg&quot; alt=&quot;Markdown&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;就像 Markdown 官方文档里描述的一样：&lt;strong&gt;&lt;em&gt;可读性，无论如何，都是最重要的。&lt;/em&gt;&lt;/strong&gt; Markdown 的目标是实现 &amp;nbsp; &lt;span id=&quot;yu-1&quot;&gt;『易读易写』&lt;/span&gt; 。&amp;nbsp;Markdown 从发布到现在备受好评，经过这一段的使用，整体感觉挺顺手，不过还是存在很多问题，所以总结一下喽。。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Markdown" scheme="http://www.cwyaml.top/blog/categories/Markdown/"/>
+    
+    
+      <category term="Markdown" scheme="http://www.cwyaml.top/blog/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HEXO+GitHub搭建博客 - 优化</title>
+    <link href="http://www.cwyaml.top/blog/2017/01/25/hexo2/"/>
+    <id>http://www.cwyaml.top/blog/2017/01/25/hexo2/</id>
+    <published>2017-01-25T13:37:01.000Z</published>
+    <updated>2017-08-28T09:41:27.099Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://p1.bqimg.com/583079/fc5b98d5c59a4660.jpg&quot; alt=&quot;Markdown&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;本篇文章主要介绍基于NexT主题的一些第三方功能的实现。&lt;br&gt;基本功能的设置可以参考 &lt;a href=&quot;http://on5pjsxrv.bkt.clouddn.com/hexo1.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Next官网文档&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="博客搭建" scheme="http://www.cwyaml.top/blog/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="Next+Hexo" scheme="http://www.cwyaml.top/blog/tags/Next-Hexo/"/>
+    
+      <category term="博客搭建" scheme="http://www.cwyaml.top/blog/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HEXO+GitHub,搭建博客 - 配置</title>
+    <link href="http://www.cwyaml.top/blog/2016/12/24/hexo1/"/>
+    <id>http://www.cwyaml.top/blog/2016/12/24/hexo1/</id>
+    <published>2016-12-24T14:23:58.000Z</published>
+    <updated>2017-08-28T09:34:50.918Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/hexo.png&quot; alt=&quot;Markdown&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;本篇文章主要介绍怎样利用 &lt;code&gt;Hexo + Next&lt;/code&gt; 在 &lt;code&gt;GitHub&lt;/code&gt; 上搭建个人博客。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="博客搭建" scheme="http://www.cwyaml.top/blog/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="Next+Hexo" scheme="http://www.cwyaml.top/blog/tags/Next-Hexo/"/>
+    
+      <category term="博客搭建" scheme="http://www.cwyaml.top/blog/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+</feed>
