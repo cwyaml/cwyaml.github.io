@@ -40,7 +40,7 @@
     <link href="http://www.cwyaml.top/blog/2017/04/06/%E8%BD%AC1/"/>
     <id>http://www.cwyaml.top/blog/2017/04/06/转1/</id>
     <published>2017-04-06T08:04:36.000Z</published>
-    <updated>2017-08-28T12:20:58.836Z</updated>
+    <updated>2017-08-29T00:34:20.311Z</updated>
     
     <summary type="html">
     
@@ -48,12 +48,14 @@
     
     </summary>
     
-      <category term="技术遐想" scheme="http://www.cwyaml.top/blog/categories/%E6%8A%80%E6%9C%AF%E9%81%90%E6%83%B3/"/>
+      <category term="转载优质文章" scheme="http://www.cwyaml.top/blog/categories/%E8%BD%AC%E8%BD%BD%E4%BC%98%E8%B4%A8%E6%96%87%E7%AB%A0/"/>
     
     
       <category term="转载" scheme="http://www.cwyaml.top/blog/tags/%E8%BD%AC%E8%BD%BD/"/>
     
-      <category term="技术遐想" scheme="http://www.cwyaml.top/blog/tags/%E6%8A%80%E6%9C%AF%E9%81%90%E6%83%B3/"/>
+      <category term="ruanyf" scheme="http://www.cwyaml.top/blog/tags/ruanyf/"/>
+    
+      <category term="思考" scheme="http://www.cwyaml.top/blog/tags/%E6%80%9D%E8%80%83/"/>
     
   </entry>
   
@@ -62,7 +64,7 @@
     <link href="http://www.cwyaml.top/blog/2017/04/02/atom/"/>
     <id>http://www.cwyaml.top/blog/2017/04/02/atom/</id>
     <published>2017-04-02T02:25:45.000Z</published>
-    <updated>2017-08-28T12:18:06.157Z</updated>
+    <updated>2017-08-29T00:37:45.134Z</updated>
     
     <summary type="html">
     
@@ -82,59 +84,11 @@
   </entry>
   
   <entry>
-    <title>JavaScript - Ajax学习笔记</title>
-    <link href="http://www.cwyaml.top/blog/2017/03/30/Ajax/"/>
-    <id>http://www.cwyaml.top/blog/2017/03/30/Ajax/</id>
-    <published>2017-03-30T14:53:52.000Z</published>
-    <updated>2017-08-28T13:28:10.683Z</updated>
-    
-    <summary type="html">
-    
-      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/ajax.png&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;2005年 &lt;strong&gt;Jesse James Garrett&lt;/strong&gt; 发表了一篇文章，介绍了 &lt;strong&gt;Ajax&lt;/strong&gt; 这门技术。这种技术能够向服务器请求额外的数据而无需刷新页面，带来了很好的用户体验，一时间席卷全球。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/categories/JavaScript/"/>
-    
-    
-      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/tags/JavaScript/"/>
-    
-      <category term="Ajax" scheme="http://www.cwyaml.top/blog/tags/Ajax/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaScript - XPath学习笔记</title>
-    <link href="http://www.cwyaml.top/blog/2017/03/12/xPath/"/>
-    <id>http://www.cwyaml.top/blog/2017/03/12/xPath/</id>
-    <published>2017-03-12T13:29:31.000Z</published>
-    <updated>2017-08-28T13:31:51.521Z</updated>
-    
-    <summary type="html">
-    
-      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/xpath.png&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;XPath 是一种节点查找手段。它比使用 标准DOM 去查找 XML 节点更加方便、更加简单。但是 XPath 是 DOM3 中才支持的标准，并且 IE 有自己的实现方式。（IE总是自己造马车）&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/categories/JavaScript/"/>
-    
-    
-      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/tags/JavaScript/"/>
-    
-      <category term="XPath" scheme="http://www.cwyaml.top/blog/tags/XPath/"/>
-    
-  </entry>
-  
-  <entry>
     <title>HEXO+GitHub,搭建博客 - 域名绑定</title>
     <link href="http://www.cwyaml.top/blog/2017/03/09/yuming/"/>
     <id>http://www.cwyaml.top/blog/2017/03/09/yuming/</id>
     <published>2017-03-09T06:50:21.000Z</published>
-    <updated>2017-08-28T13:04:16.430Z</updated>
+    <updated>2017-08-29T00:43:32.939Z</updated>
     
     <summary type="html">
     
@@ -152,6 +106,8 @@
       <category term="博客搭建" scheme="http://www.cwyaml.top/blog/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
       <category term="域名" scheme="http://www.cwyaml.top/blog/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+      <category term="前端杂货铺" scheme="http://www.cwyaml.top/blog/tags/%E5%89%8D%E7%AB%AF%E6%9D%82%E8%B4%A7%E9%93%BA/"/>
     
   </entry>
   
@@ -232,7 +188,7 @@
     <link href="http://www.cwyaml.top/blog/2017/03/01/host/"/>
     <id>http://www.cwyaml.top/blog/2017/03/01/host/</id>
     <published>2017-03-01T04:01:05.000Z</published>
-    <updated>2017-08-28T09:56:37.924Z</updated>
+    <updated>2017-08-29T00:47:30.519Z</updated>
     
     <summary type="html">
     
@@ -243,12 +199,40 @@
     
     </summary>
     
-      <category term="外面的世界" scheme="http://www.cwyaml.top/blog/categories/%E5%A4%96%E9%9D%A2%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+      <category term="电脑小技巧" scheme="http://www.cwyaml.top/blog/categories/%E7%94%B5%E8%84%91%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
     
     
       <category term="翻墙" scheme="http://www.cwyaml.top/blog/tags/%E7%BF%BB%E5%A2%99/"/>
     
       <category term="hosts" scheme="http://www.cwyaml.top/blog/tags/hosts/"/>
+    
+      <category term="Google" scheme="http://www.cwyaml.top/blog/tags/Google/"/>
+    
+      <category term="YouTuBe" scheme="http://www.cwyaml.top/blog/tags/YouTuBe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript - Ajax 总结</title>
+    <link href="http://www.cwyaml.top/blog/2017/02/23/Ajax/"/>
+    <id>http://www.cwyaml.top/blog/2017/02/23/Ajax/</id>
+    <published>2017-02-23T14:53:52.000Z</published>
+    <updated>2017-08-29T00:53:13.836Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/ajax.png&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;2005年 &lt;strong&gt;Jesse James Garrett&lt;/strong&gt; 发表了一篇文章，介绍了 &lt;strong&gt;Ajax&lt;/strong&gt; 这门技术。这种技术能够向服务器请求额外的数据而无需刷新页面，带来了很好的用户体验，一时间席卷全球。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="JavaScript学习笔记" scheme="http://www.cwyaml.top/blog/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/tags/JavaScript/"/>
+    
+      <category term="Ajax" scheme="http://www.cwyaml.top/blog/tags/Ajax/"/>
     
   </entry>
   
@@ -257,7 +241,7 @@
     <link href="http://www.cwyaml.top/blog/2017/02/14/markdown/"/>
     <id>http://www.cwyaml.top/blog/2017/02/14/markdown/</id>
     <published>2017-02-14T13:05:06.000Z</published>
-    <updated>2017-08-28T10:04:56.312Z</updated>
+    <updated>2017-08-29T00:48:26.511Z</updated>
     
     <summary type="html">
     
@@ -270,55 +254,9 @@
       <category term="Markdown" scheme="http://www.cwyaml.top/blog/categories/Markdown/"/>
     
     
+      <category term="编辑器" scheme="http://www.cwyaml.top/blog/tags/%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+    
       <category term="Markdown" scheme="http://www.cwyaml.top/blog/tags/Markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaScript - 面向对象</title>
-    <link href="http://www.cwyaml.top/blog/2017/02/05/Object/"/>
-    <id>http://www.cwyaml.top/blog/2017/02/05/Object/</id>
-    <published>2017-02-05T05:00:04.000Z</published>
-    <updated>2017-08-28T13:25:53.205Z</updated>
-    
-    <summary type="html">
-    
-      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/object.png&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;面向对象的语言有一个标志，那就是“类”的概念，所谓的“类”就是对象的模板，对象就是“类”的实例。但是，JavaScript语言的对象体系，不是基于“类”的，而是基于 &lt;strong&gt;构造函数&lt;/strong&gt;（constructor）和 &lt;strong&gt;原型链&lt;/strong&gt;（prototype）。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/categories/JavaScript/"/>
-    
-    
-      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/tags/JavaScript/"/>
-    
-      <category term="面向对象" scheme="http://www.cwyaml.top/blog/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaScript - 事件</title>
-    <link href="http://www.cwyaml.top/blog/2017/02/02/event/"/>
-    <id>http://www.cwyaml.top/blog/2017/02/02/event/</id>
-    <published>2017-02-02T13:14:46.000Z</published>
-    <updated>2017-08-28T13:26:08.944Z</updated>
-    
-    <summary type="html">
-    
-      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/event1.png&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;Javascript 和 HTML 之间的交互是通过 &lt;strong&gt;事件&lt;/strong&gt; 来实现的。最早在 IE 中出现，被作为分担服务器端运算负载的一种手段。到现在，几乎所有的浏览器都支持事件处理。在 DOM2 级中得到规范。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/categories/JavaScript/"/>
-    
-    
-      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/tags/JavaScript/"/>
-    
-      <category term="事件" scheme="http://www.cwyaml.top/blog/tags/%E4%BA%8B%E4%BB%B6/"/>
     
   </entry>
   
@@ -347,6 +285,30 @@
   </entry>
   
   <entry>
+    <title>JavaScript - XPath 总结</title>
+    <link href="http://www.cwyaml.top/blog/2017/01/12/xPath/"/>
+    <id>http://www.cwyaml.top/blog/2017/01/12/xPath/</id>
+    <published>2017-01-12T13:29:31.000Z</published>
+    <updated>2017-08-29T00:53:00.845Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/xpath.png&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;XPath 是一种节点查找手段。它比使用 标准DOM 去查找 XML 节点更加方便、更加简单。但是 XPath 是 DOM3 中才支持的标准，并且 IE 有自己的实现方式。（IE总是自己造马车）&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="JavaScript学习笔记" scheme="http://www.cwyaml.top/blog/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/tags/JavaScript/"/>
+    
+      <category term="XPath" scheme="http://www.cwyaml.top/blog/tags/XPath/"/>
+    
+  </entry>
+  
+  <entry>
     <title>HEXO+GitHub,搭建博客 - 配置</title>
     <link href="http://www.cwyaml.top/blog/2016/12/24/hexo1/"/>
     <id>http://www.cwyaml.top/blog/2016/12/24/hexo1/</id>
@@ -367,6 +329,58 @@
       <category term="Next+Hexo" scheme="http://www.cwyaml.top/blog/tags/Next-Hexo/"/>
     
       <category term="博客搭建" scheme="http://www.cwyaml.top/blog/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript - 面向对象总结</title>
+    <link href="http://www.cwyaml.top/blog/2016/12/05/Object/"/>
+    <id>http://www.cwyaml.top/blog/2016/12/05/Object/</id>
+    <published>2016-12-05T05:00:04.000Z</published>
+    <updated>2017-08-29T00:52:44.950Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/object.png&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;面向对象的语言有一个标志，那就是“类”的概念，所谓的“类”就是对象的模板，对象就是“类”的实例。但是，JavaScript语言的对象体系，不是基于“类”的，而是基于 &lt;strong&gt;构造函数&lt;/strong&gt;（constructor）和 &lt;strong&gt;原型链&lt;/strong&gt;（prototype）。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="JavaScript学习笔记" scheme="http://www.cwyaml.top/blog/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/tags/JavaScript/"/>
+    
+      <category term="面向对象" scheme="http://www.cwyaml.top/blog/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+      <category term="Object" scheme="http://www.cwyaml.top/blog/tags/Object/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript - 事件总结</title>
+    <link href="http://www.cwyaml.top/blog/2016/12/02/event/"/>
+    <id>http://www.cwyaml.top/blog/2016/12/02/event/</id>
+    <published>2016-12-02T13:14:46.000Z</published>
+    <updated>2017-08-29T00:52:33.958Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/event1.png&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Javascript 和 HTML 之间的交互是通过 &lt;strong&gt;事件&lt;/strong&gt; 来实现的。最早在 IE 中出现，被作为分担服务器端运算负载的一种手段。到现在，几乎所有的浏览器都支持事件处理。在 DOM2 级中得到规范。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="JavaScript学习笔记" scheme="http://www.cwyaml.top/blog/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/tags/JavaScript/"/>
+    
+      <category term="事件" scheme="http://www.cwyaml.top/blog/tags/%E4%BA%8B%E4%BB%B6/"/>
+    
+      <category term="Event" scheme="http://www.cwyaml.top/blog/tags/Event/"/>
     
   </entry>
   
