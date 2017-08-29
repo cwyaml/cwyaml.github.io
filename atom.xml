@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cwyaml.top/blog/"/>
-  <updated>2017-08-29T03:05:29.767Z</updated>
+  <updated>2017-08-29T08:17:48.143Z</updated>
   <id>http://www.cwyaml.top/blog/</id>
   
   <author>
@@ -16,11 +16,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>010 图片 Base64 编码</title>
+    <title>《黑客英雄》书摘</title>
+    <link href="http://www.cwyaml.top/blog/2017/08/29/%E3%80%8A%E9%BB%91%E5%AE%A2%E8%8B%B1%E9%9B%84%E3%80%8B%E4%B9%A6%E6%91%98/"/>
+    <id>http://www.cwyaml.top/blog/2017/08/29/《黑客英雄》书摘/</id>
+    <published>2017-08-29T08:10:56.000Z</published>
+    <updated>2017-08-29T08:17:48.143Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;《黑客英雄》这本书出版于1984年，描述了黑客的历史以及他们的价值观。由于这是该领域的第一本著作，所以引起了广泛反响。1994年出了十周年版，2010年又出了25周年版。计算机书籍的寿命其实很短，三五年前的书大多数已经无人问津，只有那些最重要、最经典的书，才会在二十多年后还有再版价值。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="文学爱好者" scheme="http://www.cwyaml.top/blog/categories/%E6%96%87%E5%AD%A6%E7%88%B1%E5%A5%BD%E8%80%85/"/>
+    
+    
+      <category term="书摘" scheme="http://www.cwyaml.top/blog/tags/%E4%B9%A6%E6%91%98/"/>
+    
+      <category term="文学" scheme="http://www.cwyaml.top/blog/tags/%E6%96%87%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>10 图片 Base64 编码</title>
     <link href="http://www.cwyaml.top/blog/2017/06/30/10---%E5%9B%BE%E7%89%87-Base64-%E7%BC%96%E7%A0%81/"/>
     <id>http://www.cwyaml.top/blog/2017/06/30/10---图片-Base64-编码/</id>
     <published>2017-06-30T04:39:34.000Z</published>
-    <updated>2017-08-29T03:05:29.767Z</updated>
+    <updated>2017-08-29T08:32:12.073Z</updated>
     
     <summary type="html">
     
@@ -330,7 +352,7 @@
     <link href="http://www.cwyaml.top/blog/2017/04/25/%E6%AF%8F%E5%91%A8%E4%B8%80%E4%B8%AAJS%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     <id>http://www.cwyaml.top/blog/2017/04/25/每周一个JS小程序/</id>
     <published>2017-04-25T05:08:44.000Z</published>
-    <updated>2017-08-29T07:34:30.532Z</updated>
+    <updated>2017-08-29T08:31:33.600Z</updated>
     
     <summary type="html">
     
@@ -448,30 +470,6 @@
       <category term="Next+Hexo" scheme="http://www.cwyaml.top/blog/tags/Next-Hexo/"/>
     
       <category term="博客搭建" scheme="http://www.cwyaml.top/blog/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HEXO+GitHub,搭建博客 - 备份</title>
-    <link href="http://www.cwyaml.top/blog/2017/03/07/backup/"/>
-    <id>http://www.cwyaml.top/blog/2017/03/07/backup/</id>
-    <published>2017-03-07T08:26:30.000Z</published>
-    <updated>2017-08-28T13:19:38.569Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;用Hexo写博客是一件比较享受的事情，无奈如果换电脑或者系统崩了的话，你就会一脸懵B了，备份博客就显得尤为重要。先说说我的感受，博客刚搭建好的时候就想过这个问题，那时候对 &lt;code&gt;git&lt;/code&gt; 似懂非懂吧。在网上找了很多教程方法，大概就是说要创建一个分支来存放 blog 文件，但是翻腾来翻腾去还是没有搞定。最后索性简单粗暴点，&lt;u&gt;&lt;strong&gt;在 GitHub 上创建一个仓库，把 blog 文件整个打包上传。&lt;/strong&gt;&lt;/u&gt;使用过程中发现这个方法还不错，至少对于小白来说很容易理解，也很难出错，就一直沿用到现在。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="博客搭建" scheme="http://www.cwyaml.top/blog/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    
-      <category term="Next+Hexo" scheme="http://www.cwyaml.top/blog/tags/Next-Hexo/"/>
-    
-      <category term="博客搭建" scheme="http://www.cwyaml.top/blog/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="backup" scheme="http://www.cwyaml.top/blog/tags/backup/"/>
     
   </entry>
   
