@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cwyaml.top/blog/"/>
-  <updated>2017-08-28T12:20:58.836Z</updated>
+  <updated>2017-08-28T23:43:31.437Z</updated>
   <id>http://www.cwyaml.top/blog/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Naruto-Pictures</title>
+    <link href="http://www.cwyaml.top/blog/2050/02/28/top-pitcure/"/>
+    <id>http://www.cwyaml.top/blog/2050/02/28/top-pitcure/</id>
+    <published>2050-02-28T06:36:04.000Z</published>
+    <updated>2017-08-28T23:43:31.437Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;widt
+    
+    </summary>
+    
+      <category term="图片" scheme="http://www.cwyaml.top/blog/categories/%E5%9B%BE%E7%89%87/"/>
+    
+    
+      <category term="picture" scheme="http://www.cwyaml.top/blog/tags/picture/"/>
+    
+  </entry>
   
   <entry>
     <title>【转】技术的边界 - ruanyf</title>
