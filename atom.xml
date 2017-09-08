@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cwyaml.top/blog/"/>
-  <updated>2017-08-29T08:17:48.143Z</updated>
+  <updated>2017-09-07T14:23:18.399Z</updated>
   <id>http://www.cwyaml.top/blog/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TypeScript入门教程</title>
+    <link href="http://www.cwyaml.top/blog/2017/09/07/typescript/"/>
+    <id>http://www.cwyaml.top/blog/2017/09/07/typescript/</id>
+    <published>2017-09-07T14:15:52.000Z</published>
+    <updated>2017-09-07T14:23:18.399Z</updated>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/typescript.jpg&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;什么是TypeScript&quot;&gt;&lt;a href=&quot;#什么是TypeScript&quot; class=&quot;headerlink&quot; title=&quot;什么是TypeScript&quot;&gt;&lt;/a&gt;什么是TypeScript&lt;/h3&gt;&lt;p&gt;首先，我对TypeScript的理解如下：&lt;br&gt;TypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="JavaScript学习笔记" scheme="http://www.cwyaml.top/blog/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/tags/JavaScript/"/>
+    
+      <category term="TypeScript" scheme="http://www.cwyaml.top/blog/tags/TypeScript/"/>
+    
+  </entry>
   
   <entry>
     <title>《黑客英雄》书摘</title>
@@ -446,30 +470,6 @@
       <category term="域名" scheme="http://www.cwyaml.top/blog/tags/%E5%9F%9F%E5%90%8D/"/>
     
       <category term="前端杂货铺" scheme="http://www.cwyaml.top/blog/tags/%E5%89%8D%E7%AB%AF%E6%9D%82%E8%B4%A7%E9%93%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HEXO 博客同时部署到 GitHub &amp; Coding</title>
-    <link href="http://www.cwyaml.top/blog/2017/03/08/github&amp;coding/"/>
-    <id>http://www.cwyaml.top/blog/2017/03/08/github&amp;coding/</id>
-    <published>2017-03-08T05:08:44.000Z</published>
-    <updated>2017-08-28T12:38:57.262Z</updated>
-    
-    <summary type="html">
-    
-      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/bb911c598b08f7ad.png&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;很多人都把 hexo 托管到 Github 上，因为 Github 大家都用的比较久了。但是，你的博客主要访问者肯定还是国内的用户，国内的用户访问 coding 比 github 是要快不少的。还可以&lt;u&gt;利用域名解析实现国内的走 coding，海外的走github，&lt;/u&gt;分流网站的访问。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="博客搭建" scheme="http://www.cwyaml.top/blog/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    
-      <category term="Next+Hexo" scheme="http://www.cwyaml.top/blog/tags/Next-Hexo/"/>
-    
-      <category term="博客搭建" scheme="http://www.cwyaml.top/blog/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
