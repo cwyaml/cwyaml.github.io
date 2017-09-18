@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cwyaml.top/blog/"/>
-  <updated>2017-09-07T14:23:18.399Z</updated>
+  <updated>2017-09-18T01:50:28.821Z</updated>
   <id>http://www.cwyaml.top/blog/</id>
   
   <author>
@@ -16,11 +16,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>泛型</title>
+    <link href="http://www.cwyaml.top/blog/2017/09/18/%E6%B3%9B%E5%9E%8B/"/>
+    <id>http://www.cwyaml.top/blog/2017/09/18/泛型/</id>
+    <published>2017-09-18T01:10:44.000Z</published>
+    <updated>2017-09-18T01:50:28.821Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;软件工程中，我们不仅要创建一致的良好的API接口，同时也要考虑可重用性。组件不仅能够支持当前的数据类型，同时也支持将来的数据类型，这在创建大型功能时提供了十分灵活的功能。&lt;br&gt;泛型（Generics）是指在定义函数、接口或类的时候，不预先指定具体的类型，而在使用的时候再定义类型的这一特性。可以使用泛型来创建可重用的组件，一个组件支持多种数据类型，用户根据自己的数据类型来使用组件。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="TypeScript" scheme="http://www.cwyaml.top/blog/categories/TypeScript/"/>
+    
+    
+      <category term="TypeScript" scheme="http://www.cwyaml.top/blog/tags/TypeScript/"/>
+    
+      <category term="泛型" scheme="http://www.cwyaml.top/blog/tags/%E6%B3%9B%E5%9E%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>TypeScript入门教程</title>
     <link href="http://www.cwyaml.top/blog/2017/09/07/typescript/"/>
     <id>http://www.cwyaml.top/blog/2017/09/07/typescript/</id>
     <published>2017-09-07T14:15:52.000Z</published>
-    <updated>2017-09-07T14:23:18.399Z</updated>
+    <updated>2017-09-13T10:05:40.545Z</updated>
     
     <summary type="html">
     
@@ -442,34 +464,6 @@
       <category term="ruanyf" scheme="http://www.cwyaml.top/blog/tags/ruanyf/"/>
     
       <category term="思考" scheme="http://www.cwyaml.top/blog/tags/%E6%80%9D%E8%80%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HEXO+GitHub,搭建博客 - 域名绑定</title>
-    <link href="http://www.cwyaml.top/blog/2017/03/09/yuming/"/>
-    <id>http://www.cwyaml.top/blog/2017/03/09/yuming/</id>
-    <published>2017-03-09T06:50:21.000Z</published>
-    <updated>2017-08-29T00:43:32.939Z</updated>
-    
-    <summary type="html">
-    
-      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/30e0254de754cec0.jpg&quot; alt=&quot;Markdown&quot;&gt;&lt;/div&gt;
-
-&lt;p&gt;前面也讲过了，我们把博客同时托管到 Github 和 Coding。我们就有两个域名可以访问站点，但是又出现几个问题：使用的不是自己的域名；两个地址的统计信息（文章阅读量，访问量等）相互独立，不能合并；github pages国内访问速度慢（300ms左右，毕竟国外的服务器）。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="博客搭建" scheme="http://www.cwyaml.top/blog/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-    
-      <category term="Next+Hexo" scheme="http://www.cwyaml.top/blog/tags/Next-Hexo/"/>
-    
-      <category term="博客搭建" scheme="http://www.cwyaml.top/blog/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="域名" scheme="http://www.cwyaml.top/blog/tags/%E5%9F%9F%E5%90%8D/"/>
-    
-      <category term="前端杂货铺" scheme="http://www.cwyaml.top/blog/tags/%E5%89%8D%E7%AB%AF%E6%9D%82%E8%B4%A7%E9%93%BA/"/>
     
   </entry>
   
