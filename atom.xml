@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cwyaml.top/blog/"/>
-  <updated>2017-09-19T02:53:37.669Z</updated>
+  <updated>2017-09-19T13:42:26.041Z</updated>
   <id>http://www.cwyaml.top/blog/</id>
   
   <author>
@@ -20,11 +20,12 @@
     <link href="http://www.cwyaml.top/blog/2017/09/19/%E7%B1%BB%E4%B8%8E%E6%8E%A5%E5%8F%A3/"/>
     <id>http://www.cwyaml.top/blog/2017/09/19/类与接口/</id>
     <published>2017-09-19T02:47:52.000Z</published>
-    <updated>2017-09-19T02:53:37.669Z</updated>
+    <updated>2017-09-19T13:42:26.041Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;传统方法中，我们通过构造函数实现类的概念，通过原型链实现继承。而在 ES6 中，我们终于迎来了 &lt;code&gt;class&lt;/code&gt;。TypeScript 除了实现了所有 ES6 中的类的功能以外，还添加了一些新的用法。&lt;/p&gt;
+&lt;h4 id=&quot;ES6中类的用法&quot;&gt;&lt;a href=&quot;#ES6中类的用法&quot; class=&quot;headerlink&quot; title=&quot;ES6中类的用法&quot;&gt;&lt;/a&gt;ES6中类的用法&lt;/h4&gt;&lt;p&gt;使用 &lt;code&gt;class&lt;/code&gt; 定义类。使用 &lt;code&gt;constructor&lt;/code&gt; 定义构造函数。通过 &lt;code&gt;new&lt;/code&gt; 生成新实例的时候，会自动调用构造函数。&lt;/p&gt;
     
     </summary>
     
@@ -64,13 +65,14 @@
     <link href="http://www.cwyaml.top/blog/2017/09/07/typescript/"/>
     <id>http://www.cwyaml.top/blog/2017/09/07/typescript/</id>
     <published>2017-09-07T14:15:52.000Z</published>
-    <updated>2017-09-19T02:46:06.109Z</updated>
+    <updated>2017-09-19T14:00:31.476Z</updated>
     
     <summary type="html">
     
       &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/typescript.jpg&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;什么是TypeScript&quot;&gt;&lt;a href=&quot;#什么是TypeScript&quot; class=&quot;headerlink&quot; title=&quot;什么是TypeScript&quot;&gt;&lt;/a&gt;什么是TypeScript&lt;/h3&gt;&lt;p&gt;TypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。&lt;/p&gt;
+&lt;p&gt;TypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。&lt;/p&gt;
+&lt;p id=&quot;div-border-left-purple&quot;&gt; 引用官方的定义： TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.Any browser. Any host. Any OS. Open source.&lt;/p&gt;
     
     </summary>
     
@@ -88,11 +90,12 @@
     <link href="http://www.cwyaml.top/blog/2017/08/29/%E3%80%8A%E9%BB%91%E5%AE%A2%E8%8B%B1%E9%9B%84%E3%80%8B%E4%B9%A6%E6%91%98/"/>
     <id>http://www.cwyaml.top/blog/2017/08/29/《黑客英雄》书摘/</id>
     <published>2017-08-29T08:10:56.000Z</published>
-    <updated>2017-08-29T08:17:48.143Z</updated>
+    <updated>2017-09-19T14:00:04.819Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;《黑客英雄》这本书出版于1984年，描述了黑客的历史以及他们的价值观。由于这是该领域的第一本著作，所以引起了广泛反响。1994年出了十周年版，2010年又出了25周年版。计算机书籍的寿命其实很短，三五年前的书大多数已经无人问津，只有那些最重要、最经典的书，才会在二十多年后还有再版价值。&lt;/p&gt;
+&lt;p id=&quot;div-border-left-red&quot;&gt;1.They had grown up with a specific relationship to the world, wherein things had meaning only if you found out how they worked.&lt;br&gt;他们从小就认为，只有知道一件事物的原理，它才是有用的东西。 &lt;/p&gt;
     
     </summary>
     
@@ -110,11 +113,12 @@
     <link href="http://www.cwyaml.top/blog/2017/06/30/10---%E5%9B%BE%E7%89%87-Base64-%E7%BC%96%E7%A0%81/"/>
     <id>http://www.cwyaml.top/blog/2017/06/30/10---图片-Base64-编码/</id>
     <published>2017-06-30T04:39:34.000Z</published>
-    <updated>2017-08-29T08:32:12.073Z</updated>
+    <updated>2017-09-19T14:01:29.036Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;第十周，一起来认识一下 &lt;strong&gt;图片的 Base64 位编码&lt;/strong&gt; 。这有利于优化你的网页。&lt;/p&gt;
+      &lt;p&gt;第十周，一起来认识一下 &lt;strong&gt;图片的 Base64 位编码&lt;/strong&gt; 。这有利于优化你的网页。最后做一个小网页，实现用户上传图片，点击按钮获得该图片的 Base64 位编码的功能。&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;图片处理在前端工作中可谓占据了很重要的一壁江山。而图片 Base64编码 可能相对一些人而言比较陌生，本文希望通过一些浅显的论述，让你知道什么是图片的 base64编码，为什么我们要用它，以及如何方便的使用它。&lt;/p&gt;
     
     </summary>
     

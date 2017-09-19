@@ -1928,7 +1928,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cf7aff;
+  background: #ffc2a1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2696,10 +2696,10 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 20px 0 10px;
+  margin: 20px 0 0;
 }
 p {
-  margin: 0 0 25px 0;
+  margin: 0 0 5px 0;
 }
 a {
   border-bottom-color: #ccc;
@@ -2871,14 +2871,14 @@ hr {
   display: none;
 }
 .posts-expand .post {
-  margin-top: 120px;
+  margin-top: 50px;
 }
 .posts-expand .post:first-child {
   margin-top: 0;
 }
 .posts-expand .post-meta {
   margin-top: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .posts-expand .post-title {
   position: relative;
@@ -2918,6 +2918,11 @@ hr {
 .post-button {
   margin-top: 20px;
   text-align: left;
+}
+@media (max-width: 767px) {
+  .post-button {
+    text-align: center;
+  }
 }
 .post-button a {
   margin: 0 8px 8px 0 !important;
@@ -2965,9 +2970,13 @@ hr {
     padding: 0 10px;
   }
 }
+.container .main-inner {
+  margin-top: 60px;
+}
 @media (max-width: 767px) {
   .container .main-inner {
     width: auto;
+    margin-top: 20px;
   }
 }
 .page-post-detail .post-title,
@@ -2981,20 +2990,25 @@ hr {
   margin-bottom: 60px;
 }
 .pagination {
-  margin: 120px 0 0;
+  margin: 100px 0 0;
   text-align: left;
 }
 @media (max-width: 767px) {
   .pagination {
-    margin: 80px 10px 0;
+    margin: 60px 0 0;
     text-align: center;
   }
 }
 .footer {
-  margin-top: 80px;
+  margin-top: 50px;
   padding: 10px 0;
   background: #f5f5f5;
   color: #666;
+}
+@media (max-width: 767px) {
+  .footer {
+    margin-top: 20px;
+  }
 }
 .footer-inner {
   margin: 0 auto;
@@ -3006,23 +3020,26 @@ hr {
     text-align: center;
   }
 }
-.posts-expand .post {
-  margin-top: 80px;
+.posts-expand {
+  margin: 0 5px;
 }
-.pagination {
-  margin: 80px 0 0;
+.header-inner {
+  margin-bottom: 20px;
 }
-.footer {
-  margin-top: 50px;
+.page-post-detail .post-meta {
+  margin-bottom: 40px;
+}
+.posts-collapse .collection-title {
+  margin: 30px 0;
 }
 .posts-expand .post-tags {
   text-align: center;
 }
 div.out-img-topic {
   display: block;
-  max-width: 700px;
+  max-width: 710px;
   max-height: 310px;
-  margin: 0 auto 24px;
+  margin: 0 auto 10px;
   overflow: hidden;
 }
 .post-body p a {
