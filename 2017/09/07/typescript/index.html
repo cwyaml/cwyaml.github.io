@@ -107,19 +107,19 @@
 
 
 
-<meta name="description" content="什么是TypeScript首先，我对TypeScript的理解如下：TypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。">
+<meta name="description" content="什么是TypeScriptTypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。">
 <meta name="keywords" content="JavaScript,TypeScript">
 <meta property="og:type" content="article">
-<meta property="og:title" content="TypeScript入门教程">
+<meta property="og:title" content="TypeScript基础教程 -- 数据类型">
 <meta property="og:url" content="http://www.cwyaml.top/blog/2017/09/07/typescript/index.html">
 <meta property="og:site_name" content="cwyaml&#39;s Notes">
-<meta property="og:description" content="什么是TypeScript首先，我对TypeScript的理解如下：TypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。">
+<meta property="og:description" content="什么是TypeScriptTypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://on5sixmz1.bkt.clouddn.com/typescript.jpg">
-<meta property="og:updated_time" content="2017-09-13T10:05:40.545Z">
+<meta property="og:updated_time" content="2017-09-19T02:46:06.109Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="TypeScript入门教程">
-<meta name="twitter:description" content="什么是TypeScript首先，我对TypeScript的理解如下：TypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。">
+<meta name="twitter:title" content="TypeScript基础教程 -- 数据类型">
+<meta name="twitter:description" content="什么是TypeScriptTypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。">
 <meta name="twitter:image" content="http://on5sixmz1.bkt.clouddn.com/typescript.jpg">
 
 
@@ -156,7 +156,7 @@
 
 
 
-  <title>TypeScript入门教程 | cwyaml's Notes</title>
+  <title>TypeScript基础教程 -- 数据类型 | cwyaml's Notes</title>
   
 
 
@@ -334,7 +334,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">TypeScript入门教程</h1>
+          <h1 class="post-title" itemprop="name headline">TypeScript基础教程 -- 数据类型</h1>
         
 
         <div class="post-meta">
@@ -411,9 +411,9 @@
       
         <div class="out-img-topic"><img src="http://on5sixmz1.bkt.clouddn.com/typescript.jpg" alt="markdown"></div>
 
-<h3 id="什么是TypeScript"><a href="#什么是TypeScript" class="headerlink" title="什么是TypeScript"></a>什么是TypeScript</h3><p>首先，我对TypeScript的理解如下：<br>TypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。</p>
+<h3 id="什么是TypeScript"><a href="#什么是TypeScript" class="headerlink" title="什么是TypeScript"></a>什么是TypeScript</h3><p>TypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。</p>
 <a id="more"></a>
-<p>其次引用官方的定义：</p>
+<p>引用官方的定义：</p>
 <blockquote>
 <p>TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.Any browser. Any host. Any OS. Open source.</p>
 </blockquote>
@@ -448,15 +448,16 @@
 <li>可能和一些库结合的不是很完美</li>
 </ul>
 <p>总之可以根据自己团队和项目的情况判断是否需要使用TypeScript。</p>
-<h3 id="安装TypeScript请自行百度"><a href="#安装TypeScript请自行百度" class="headerlink" title="安装TypeScript请自行百度"></a>安装TypeScript请自行百度</h3><h3 id="Hello-TypeScript"><a href="#Hello-TypeScript" class="headerlink" title="Hello TypeScript"></a>Hello TypeScript</h3><p>我们从一个简答的例子开始。<br>将一下代码复制到 <code>hello.ts</code> 中：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params">person: string</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> <span class="string">'Hello,'</span> + person;</div><div class="line">&#125;</div><div class="line"><span class="keyword">let</span> user = <span class="string">'Tom'</span>;</div><div class="line"><span class="built_in">console</span>.log(sayHello(user));</div></pre></td></tr></table></figure></p>
+<h3 id="安装TypeScript请自行百度"><a href="#安装TypeScript请自行百度" class="headerlink" title="安装TypeScript请自行百度"></a>安装TypeScript请自行百度</h3><h3 id="Hello-TypeScript"><a href="#Hello-TypeScript" class="headerlink" title="Hello TypeScript"></a>Hello TypeScript</h3><p>我们从一个简答的例子开始。将以下代码复制到 <code>hello.ts</code> 中：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params">person: string</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> <span class="string">'Hello,'</span> + person;</div><div class="line">&#125;</div><div class="line"><span class="keyword">let</span> user = <span class="string">'Tom'</span>;</div><div class="line"><span class="built_in">console</span>.log(sayHello(user));</div></pre></td></tr></table></figure></p>
 <p>然后执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">tsc hello.ts</div></pre></td></tr></table></figure></p>
 <p>这是后会生成一个编译好的文件<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params">person</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> <span class="string">'Hello,'</span> + person;</div><div class="line">&#125;</div><div class="line"><span class="keyword">var</span> user = <span class="string">'Tom'</span>;</div><div class="line"><span class="built_in">console</span>.log(sayHello(user));</div></pre></td></tr></table></figure></p>
 <p>上述例子中，我们用  :  指定  person  参数类型为  string  。但是编译为 js 之<br>后，并没有什么检查的代码被插入进来。<br>TypeScript只会进行静态检查，如果发现有错误，编译的时候会报错。</p>
 <p>下面尝试吧这段代码编译一下：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params">person: string</span>) </span>&#123;</div><div class="line"><span class="keyword">return</span> <span class="string">'Hello, '</span> + person;</div><div class="line">&#125;</div><div class="line"><span class="keyword">let</span> user = [<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>];</div><div class="line"><span class="built_in">console</span>.log(sayHello(user));</div></pre></td></tr></table></figure></p>
 <p>编辑器中会提示错误，编译的时候也会出错：</p>
 <blockquote>
-<p>index.ts(6,36): error TS2345: Argument of type ‘number[]’ is not assignable to parameter of type ‘string’.<br>但是还是生成了 <code>js</code> 文件：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params">person</span>) </span>&#123;</div><div class="line"><span class="keyword">return</span> <span class="string">'Hello, '</span> + person;</div><div class="line">&#125;</div><div class="line"><span class="keyword">var</span> user = [<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>];</div><div class="line"><span class="built_in">console</span>.log(sayHello(user));</div></pre></td></tr></table></figure></p>
+<p>index.ts(6,36): error TS2345: Argument of type ‘number[]’ is not assignable to parameter of type ‘string’.</p>
 </blockquote>
+<p>但是还是生成了 <code>js</code> 文件：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">sayHello</span>(<span class="params">person</span>) </span>&#123;</div><div class="line"><span class="keyword">return</span> <span class="string">'Hello, '</span> + person;</div><div class="line">&#125;</div><div class="line"><span class="keyword">var</span> user = [<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>];</div><div class="line"><span class="built_in">console</span>.log(sayHello(user));</div></pre></td></tr></table></figure></p>
 <p>TypeScript编译的时候即使报错了，还是会生成编译结果，我们仍然可以使用这个编译后的文件</p>
 <blockquote>
 <p>如果要在报错的时候终止 js 文件的生成，可以在  tsconfig.json  中配置 noEmitOnError  即可。关于  tsconfig.json  ，请参阅官方手册（中文版）。</p>
@@ -491,13 +492,6 @@
 <p>因为 <code>length</code> 不是 number 和 string 的共有属性，所以会报错。访问 <code>toString()</code> 就没有问题：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">getString</span>(<span class="params">something: string | number</span>): <span class="title">string</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> something.toString();</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>联合类型的变量在赋值时也会根据类型推断的规则推断出一个类型：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">let</span> myFavoriteNumber: string | number;</div><div class="line">myFavoriteNumber = <span class="string">'seven'</span>;</div><div class="line"><span class="built_in">console</span>.log(myFavoriteNumber.length);   <span class="comment">//5</span></div><div class="line">myFavoriteNumber = <span class="number">7</span>;</div><div class="line"><span class="built_in">console</span>.log(myFavoriteNumber.length);   <span class="comment">//报错</span></div><div class="line"><span class="comment">// hello.ts(5,30): error TS2339: Property 'length' does not exist on type 'number'.</span></div></pre></td></tr></table></figure></p>
 <p>上例，在第二行 myFavoriteNumber 被推断为 string，访问其 length 属性不会报错，而第四行 myFavoriteNumber 被推断为 number，访问其 length 属性就报错了。</p>
-<h3 id="对象的类型–接口"><a href="#对象的类型–接口" class="headerlink" title="对象的类型–接口"></a>对象的类型–接口</h3><p>在 TypeScript 中，我们使用接口（interface）来定义对象的类型。</p>
-<h4 id="什么是接口"><a href="#什么是接口" class="headerlink" title="什么是接口"></a>什么是接口</h4><p>在面向对象的语言中，接口是一个很重要的概念，它是对行为的抽象，而具体如何行动需要由类（classes）去实现。TypeScript 中的接口是一个非常灵活的概念，除了可用于对类的一部分行为进行抽象以外，也常用于对 <em>对象的形状（shape）</em> 进行描述。举个简答的例子：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">interface Person &#123;</div><div class="line">    name: string;</div><div class="line">    age: number;</div><div class="line">&#125;</div><div class="line"><span class="keyword">let</span> Tom: Person = &#123;</div><div class="line">    name: <span class="string">'Tom'</span>,</div><div class="line">    age: <span class="number">22</span></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>上面的例子中，我们定义了一个接口  Person  ，接着定义了一个变量xcatliu  ，它的类型是  Person  。这样，我们就约束了  xcatliu  的形状必须和接口  Person  一致。接口一般首字母大写。</p>
-<p>正常情况下，赋值的时候，<strong>变量的形状必须和接口的形状保持一致</strong>。多一些属性，少一些属性都是不被允许的。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">interface Person &#123;</div><div class="line">    name: string;</div><div class="line">    age: number;</div><div class="line">&#125;</div><div class="line"><span class="keyword">let</span> Tom: Person = &#123;</div><div class="line">    name: <span class="string">'Tom'</span>,</div><div class="line">&#125;</div><div class="line"><span class="comment">// hello.ts(5,5): error TS2322: Type '&#123; name: string; &#125;' is not assignable to type 'Person'.Property 'age' is missing in type '&#123; name: string; &#125;'.</span></div></pre></td></tr></table></figure></p>
-<h4 id="可选属性"><a href="#可选属性" class="headerlink" title="可选属性"></a>可选属性</h4><p>有时候我们不希望完全匹配一个形状，那么可以用可选属性：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">interface Person &#123;</div><div class="line">    name: string;</div><div class="line">    age?: number;</div><div class="line">&#125;</div><div class="line"><span class="keyword">let</span> Tom: Person = &#123;</div><div class="line">    name: <span class="string">'Tom'</span>,</div><div class="line">    <span class="comment">//age: 22</span></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>可选属性的含义是该属性可以不存在，但仍然不允许添加未定义的属性。</p>
-<h4 id="任意属性"><a href="#任意属性" class="headerlink" title="任意属性"></a>任意属性</h4><p>有时候我们希望一个接口允许有任意的属性，可以使用如下方式：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">interface Person &#123;</div><div class="line">    name: string;</div><div class="line">    age: number;</div><div class="line">    [propName: string]: any;</div><div class="line">&#125;</div><div class="line"><span class="keyword">let</span> Tom: Person = &#123;</div><div class="line">    name: <span class="string">'Tom'</span>,</div><div class="line">    age: <span class="number">22</span>,</div><div class="line">    website: <span class="string">'http://www.cwyaml.top'</span></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -540,8 +534,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/09/18/泛型/" rel="prev" title="泛型">
-                泛型 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/09/18/泛型/" rel="prev" title="TypeScript基础教程 -- 泛型">
+                TypeScript基础教程 -- 泛型 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -617,7 +611,7 @@
             
               <a href="/archives || calendar-check-o">
             
-                <span class="site-state-item-count">35</span>
+                <span class="site-state-item-count">36</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -654,31 +648,17 @@
               RSS
             </a>
             <a title="一共有四首歌^_^" rel="alternate" class="mw-harlem_shake_slow wobble shake" href='javascript:(
-    /*
-     * Copyright (C) 2015 Rocko (rocko.xyz) <rocko.zxp@gmail.com>
-     *
-     * Licensed under the Apache License, Version 2.0 (the "License");
-     * you may not use this file except in compliance with the License.
-     * You may obtain a copy of the License at
-     *
-     *      http://www.apache.org/licenses/LICENSE-2.0
-     *
-     * Unless required by applicable law or agreed to in writing, software
-     * distributed under the License is distributed on an "AS IS" BASIS,
-     * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     * See the License for the specific language governing permissions and
-     * limitations under the License.
-     */
+    
     function go() {
 
       var songs = [
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E8%B4%B0%E4%BD%B0%20-%20%E5%98%BF%EF%BC%8C%E6%8A%AC%E5%A4%B4%EF%BC%81.mp3?Expires=1505703893&OSSAccessKeyId=TMP.AQEBbrzpquTmsnLL2E6FIetDpZJkXgYXo0xLAIiPhApj8yOIhztO-2dRbAw4ADAtAhUAyuPT1QhfwGcs00HwxhCUMbwqN8ACFC_DnCYHEwY4XxmHtiwv_542MjUC&Signature=FPIZTRGtcdPFl4jHUjVniAQoH7E%3D",
+          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E8%B4%B0%E4%BD%B0%20-%20%E5%98%BF%EF%BC%8C%E6%8A%AC%E5%A4%B4%EF%BC%81.mp3?Expires=1505792925&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=1Rk2l7QyEaZciHdlsavMhaE8b8E%3D",
 
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E6%8C%87%E5%8D%97%E9%92%88%20-%20%E6%97%A0%E6%B3%95%E9%80%83%E8%84%B1.mp3?Expires=1505703979&OSSAccessKeyId=TMP.AQEBbrzpquTmsnLL2E6FIetDpZJkXgYXo0xLAIiPhApj8yOIhztO-2dRbAw4ADAtAhUAyuPT1QhfwGcs00HwxhCUMbwqN8ACFC_DnCYHEwY4XxmHtiwv_542MjUC&Signature=heS7NoRRWrxYXUl4yb2LuAbM7oM%3D",
+          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E6%8C%87%E5%8D%97%E9%92%88%20-%20%E6%97%A0%E6%B3%95%E9%80%83%E8%84%B1.mp3?Expires=1505792945&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=31nmI8I%2BqgXoLPh3eQ%2FZteOh8ZQ%3D",
 
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E9%A3%8E%E5%B0%8F%E7%AD%9D%20-%20%E9%A3%8E%E7%AD%9D%E8%AF%AF%EF%BC%88Cover%20%E5%88%98%E7%8F%82%E7%9F%A3%EF%BC%89.mp3?Expires=1505704006&OSSAccessKeyId=TMP.AQEBbrzpquTmsnLL2E6FIetDpZJkXgYXo0xLAIiPhApj8yOIhztO-2dRbAw4ADAtAhUAyuPT1QhfwGcs00HwxhCUMbwqN8ACFC_DnCYHEwY4XxmHtiwv_542MjUC&Signature=etkJQrKcsJrhq0a9PYdpw%2FLhX9w%3D",
+          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E9%A3%8E%E5%B0%8F%E7%AD%9D%20-%20%E9%A3%8E%E7%AD%9D%E8%AF%AF%EF%BC%88Cover%20%E5%88%98%E7%8F%82%E7%9F%A3%EF%BC%89.mp3?Expires=1505792966&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=4IKcmqITk2dStn2XT%2F3wwOfZC84%3D",
 
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E8%B5%B5%E9%9B%B7%20-%20%E4%B8%89%E5%8D%81%E5%B2%81%E7%9A%84%E5%A5%B3%E4%BA%BA.mp3?Expires=1505704029&OSSAccessKeyId=TMP.AQEBbrzpquTmsnLL2E6FIetDpZJkXgYXo0xLAIiPhApj8yOIhztO-2dRbAw4ADAtAhUAyuPT1QhfwGcs00HwxhCUMbwqN8ACFC_DnCYHEwY4XxmHtiwv_542MjUC&Signature=oGoJsvKfB0SeR63qSWFOZKX0PIY%3D",
+          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E8%B5%B5%E9%9B%B7%20-%20%E4%B8%89%E5%8D%81%E5%B2%81%E7%9A%84%E5%A5%B3%E4%BA%BA.mp3?Expires=1505792990&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=tmQNPMIeGxc1b85oId2uzWffUKg%3D",
 
           "......"
       ];
@@ -812,7 +792,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是TypeScript"><span class="nav-number">1.</span> <span class="nav-text">什么是TypeScript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#为什么选择TypeScript"><span class="nav-number">2.</span> <span class="nav-text">为什么选择TypeScript</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#TypeScript增加了代码的可读性和可维护性"><span class="nav-number">2.1.</span> <span class="nav-text">TypeScript增加了代码的可读性和可维护性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#TypeScript非常包容"><span class="nav-number">2.2.</span> <span class="nav-text">TypeScript非常包容</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#TypeScript拥有活跃的社区"><span class="nav-number">2.3.</span> <span class="nav-text">TypeScript拥有活跃的社区</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装TypeScript请自行百度"><span class="nav-number">3.</span> <span class="nav-text">安装TypeScript请自行百度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hello-TypeScript"><span class="nav-number">4.</span> <span class="nav-text">Hello TypeScript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#原始数据类型"><span class="nav-number">5.</span> <span class="nav-text">原始数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#布尔值"><span class="nav-number">5.1.</span> <span class="nav-text">布尔值</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#数值"><span class="nav-number">5.2.</span> <span class="nav-text">数值</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#字符串"><span class="nav-number">5.3.</span> <span class="nav-text">字符串</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#空值"><span class="nav-number">5.4.</span> <span class="nav-text">空值</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Null-和-Undefined"><span class="nav-number">5.5.</span> <span class="nav-text">Null 和 Undefined</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#任意值"><span class="nav-number">6.</span> <span class="nav-text">任意值</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#什么是任意值类型？"><span class="nav-number">6.1.</span> <span class="nav-text">什么是任意值类型？</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#未声明类型的变量"><span class="nav-number">7.</span> <span class="nav-text">未声明类型的变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#类型推断"><span class="nav-number">8.</span> <span class="nav-text">类型推断</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#联合类型"><span class="nav-number">9.</span> <span class="nav-text">联合类型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#访问联合类型的属性和方法"><span class="nav-number">9.1.</span> <span class="nav-text">访问联合类型的属性和方法</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#对象的类型–接口"><span class="nav-number">10.</span> <span class="nav-text">对象的类型–接口</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#什么是接口"><span class="nav-number">10.1.</span> <span class="nav-text">什么是接口</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#可选属性"><span class="nav-number">10.2.</span> <span class="nav-text">可选属性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#任意属性"><span class="nav-number">10.3.</span> <span class="nav-text">任意属性</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是TypeScript"><span class="nav-number">1.</span> <span class="nav-text">什么是TypeScript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#为什么选择TypeScript"><span class="nav-number">2.</span> <span class="nav-text">为什么选择TypeScript</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#TypeScript增加了代码的可读性和可维护性"><span class="nav-number">2.1.</span> <span class="nav-text">TypeScript增加了代码的可读性和可维护性</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#TypeScript非常包容"><span class="nav-number">2.2.</span> <span class="nav-text">TypeScript非常包容</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#TypeScript拥有活跃的社区"><span class="nav-number">2.3.</span> <span class="nav-text">TypeScript拥有活跃的社区</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装TypeScript请自行百度"><span class="nav-number">3.</span> <span class="nav-text">安装TypeScript请自行百度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hello-TypeScript"><span class="nav-number">4.</span> <span class="nav-text">Hello TypeScript</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#原始数据类型"><span class="nav-number">5.</span> <span class="nav-text">原始数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#布尔值"><span class="nav-number">5.1.</span> <span class="nav-text">布尔值</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#数值"><span class="nav-number">5.2.</span> <span class="nav-text">数值</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#字符串"><span class="nav-number">5.3.</span> <span class="nav-text">字符串</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#空值"><span class="nav-number">5.4.</span> <span class="nav-text">空值</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Null-和-Undefined"><span class="nav-number">5.5.</span> <span class="nav-text">Null 和 Undefined</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#任意值"><span class="nav-number">6.</span> <span class="nav-text">任意值</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#什么是任意值类型？"><span class="nav-number">6.1.</span> <span class="nav-text">什么是任意值类型？</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#未声明类型的变量"><span class="nav-number">7.</span> <span class="nav-text">未声明类型的变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#类型推断"><span class="nav-number">8.</span> <span class="nav-text">类型推断</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#联合类型"><span class="nav-number">9.</span> <span class="nav-text">联合类型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#访问联合类型的属性和方法"><span class="nav-number">9.1.</span> <span class="nav-text">访问联合类型的属性和方法</span></a></li></ol></li></ol></div>
             
 
           </div>

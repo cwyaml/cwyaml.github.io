@@ -89,7 +89,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="cwyaml, Notes, Blog, Hexo, NexT, Javascript, 前端" />
+  <meta name="keywords" content="JavaScript,TypeScript," />
 
 
 
@@ -107,16 +107,18 @@
 
 
 
-<meta name="description" content="要不是痛彻心扉，谁又记得谁，只是云和月，相互以为是彼此的盈缺。  &amp;nbsp;&amp;nbsp;&amp;nbsp;   --《曾经最美》">
-<meta property="og:type" content="website">
-<meta property="og:title" content="cwyaml&#39;s Notes">
-<meta property="og:url" content="http://www.cwyaml.top/blog/tags/小程序/page/2/index.html">
+<meta name="description" content="传统方法中，我们通过构造函数实现类的概念，通过原型链实现继承。而在 ES6 中，我们终于迎来了 class。TypeScript 除了实现了所有 ES6 中的类的功能以外，还添加了一些新的用法。">
+<meta name="keywords" content="JavaScript,TypeScript">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TypeScript基础教程 -- 类">
+<meta property="og:url" content="http://www.cwyaml.top/blog/2017/09/19/类与接口/index.html">
 <meta property="og:site_name" content="cwyaml&#39;s Notes">
-<meta property="og:description" content="要不是痛彻心扉，谁又记得谁，只是云和月，相互以为是彼此的盈缺。  &amp;nbsp;&amp;nbsp;&amp;nbsp;   --《曾经最美》">
+<meta property="og:description" content="传统方法中，我们通过构造函数实现类的概念，通过原型链实现继承。而在 ES6 中，我们终于迎来了 class。TypeScript 除了实现了所有 ES6 中的类的功能以外，还添加了一些新的用法。">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-09-19T02:53:37.669Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="cwyaml&#39;s Notes">
-<meta name="twitter:description" content="要不是痛彻心扉，谁又记得谁，只是云和月，相互以为是彼此的盈缺。  &amp;nbsp;&amp;nbsp;&amp;nbsp;   --《曾经最美》">
+<meta name="twitter:title" content="TypeScript基础教程 -- 类">
+<meta name="twitter:description" content="传统方法中，我们通过构造函数实现类的概念，通过原型链实现继承。而在 ES6 中，我们终于迎来了 class。TypeScript 除了实现了所有 ES6 中的类的功能以外，还添加了一些新的用法。">
 
 
 
@@ -146,13 +148,13 @@
 
 
 
-  <link rel="canonical" href="http://www.cwyaml.top/blog/tags/小程序/page/2/"/>
+  <link rel="canonical" href="http://www.cwyaml.top/blog/2017/09/19/类与接口/"/>
 
 
 
 
 
-  <title>标签: 小程序 | cwyaml's Notes</title>
+  <title>TypeScript基础教程 -- 类 | cwyaml's Notes</title>
   
 
 
@@ -171,7 +173,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -299,86 +301,194 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>小程序<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.cwyaml.top/blog/2017/09/19/类与接口/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="cwyaml">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/logo.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="cwyaml's Notes">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2017/04/26/01---Drum-Kit-爵士鼓/" itemprop="url">
-              
-                <span itemprop="name">01 Drun-Kit 爵士鼓</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">TypeScript基础教程 -- 类</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-04-26T13:08:44+08:00"
-              content="2017-04-26" >
-          04-26
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-19T10:47:52+08:00">
+                2017-09-19
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/JavaScript学习笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript学习笔记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv">阅读次数
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
+      
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/04/25/每周一个JS小程序/" itemprop="url">
-              
-                <span itemprop="name">【置顶】每周一个JS小程序</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-04-25T13:08:44+08:00"
-              content="2017-04-25" >
-          04-25
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+      
+        <p>传统方法中，我们通过构造函数实现类的概念，通过原型链实现继承。而在 ES6 中，我们终于迎来了 <code>class</code>。TypeScript 除了实现了所有 ES6 中的类的功能以外，还添加了一些新的用法。</p>
+<a id="more"></a>
+<h4 id="ES6中类的用法"><a href="#ES6中类的用法" class="headerlink" title="ES6中类的用法"></a>ES6中类的用法</h4><p>使用 <code>class</code> 定义类。使用 <code>constructor</code> 定义构造函数。通过 <code>new</code> 生成新实例的时候，会自动调用构造函数。<br><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">class</span> Animal&#123;</div><div class="line">  <span class="keyword">constructor</span> (<span class="params">name</span>) &#123;</div><div class="line">    <span class="keyword">this</span>.name = name;</div><div class="line">  &#125;</div><div class="line">  sayHi() &#123;</div><div class="line">    <span class="keyword">return</span> <span class="string">`hello,my name is <span class="subst">$&#123;this.name&#125;</span>`</span>;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">let</span> a = <span class="keyword">new</span> Animal(<span class="string">'Tom'</span>);</div><div class="line"><span class="built_in">console</span>.log(a.sayHi());     <span class="comment">// hello,my name is Tom</span></div></pre></td></tr></table></figure></p>
+<p>使用 <code>extends</code> 关键字实现继承，子类中使用 <code>super</code> 来调用父类的构造函数和方法。<br><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">class</span> cat <span class="keyword">extends</span> Animal &#123;</div><div class="line">  <span class="keyword">constructor</span> (<span class="params">name</span>) &#123;</div><div class="line">    <span class="keyword">super</span>(name);      <span class="comment">// 调用父类的constructor(name)</span></div><div class="line">  &#125;</div><div class="line">  sayHi() &#123;</div><div class="line">    <span class="keyword">return</span> <span class="keyword">super</span>.sayHi();     <span class="comment">// 调用父类的sayHi()</span></div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">let</span> b = <span class="keyword">new</span> cat(<span class="string">'boom'</span>);</div><div class="line"><span class="built_in">console</span>.log(b.sayHi());     <span class="comment">// hello,my name is boom</span></div></pre></td></tr></table></figure></p>
+<p>使用 <code>get</code> 和 <code>set</code> 对某个属性设置存值函数和取值函数，拦截该属性的存取行为。<br><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">class</span> Animal &#123;</div><div class="line">  <span class="keyword">constructor</span>(<span class="params">name</span>) &#123;</div><div class="line">    <span class="keyword">this</span>.name = name;</div><div class="line">  &#125;</div><div class="line">  <span class="keyword">set</span> name(value) &#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'setter: '</span> + value);</div><div class="line">  &#125;</div><div class="line">  <span class="keyword">get</span> name() &#123;</div><div class="line">    <span class="keyword">return</span> <span class="string">'Jack'</span>;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">let</span> a = <span class="keyword">new</span> Animal(<span class="string">'Kitty'</span>); <span class="comment">// setter: Kitty</span></div><div class="line">a.name = <span class="string">'Tom'</span>; <span class="comment">// setter: Tom</span></div><div class="line"><span class="built_in">console</span>.log(a.name); <span class="comment">// Jack</span></div></pre></td></tr></table></figure></p>
+<p>通过 <code>static</code> 关键字修饰的方法称为静态方法，它们不需要实例化，而是直接通过类来调用。<br><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">class</span> Animal &#123;</div><div class="line">  <span class="keyword">static</span> isAnimal(a)&#123;</div><div class="line">    <span class="keyword">return</span> a <span class="keyword">instanceof</span> Animal;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"><span class="keyword">let</span> a = <span class="keyword">new</span> Animal(<span class="string">'Tom'</span>);</div><div class="line">Animal.isAnimal(a);     <span class="comment">// true</span></div><div class="line">a.isAnimal(a);      <span class="comment">// Uncaught TypeError: a.isAnimal is not a function</span></div></pre></td></tr></table></figure></p>
+<h4 id="TypeScript中类的用法"><a href="#TypeScript中类的用法" class="headerlink" title="TypeScript中类的用法"></a>TypeScript中类的用法</h4><h5 id="public、private和protected"><a href="#public、private和protected" class="headerlink" title="public、private和protected"></a>public、private和protected</h5><p>TypeScript可以使用三种访问修饰符，分别是：<code>public</code>、<code>private</code> 和 <code>protected</code>。</p>
+<ul>
+<li><strong>public</strong> 修饰的属性或方法是公有的，可以再任何地方被访问。默认所有的属性和方法都是 public 的；</li>
+<li><strong>private</strong> 修饰的属性或方法是私有的，不能再声明它的类的外部访问；</li>
+<li><strong>protected</strong> 修饰的属性或方法是受保护的，和 private 类似，区别是，它在子类中也是允许被访问的。</li>
+</ul>
+<p>举例说明：<br><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">class</span> Animal &#123;</div><div class="line">  <span class="keyword">public</span> name;</div><div class="line">  <span class="keyword">public</span> <span class="keyword">constructor</span>(<span class="params">name</span>) &#123;</div><div class="line">    <span class="keyword">this</span>.name = name;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"><span class="keyword">let</span> a = <span class="keyword">new</span> Animal(<span class="string">'Tom'</span>);</div><div class="line"><span class="built_in">console</span>.log(a.name);      <span class="comment">// Tom</span></div><div class="line">a.name = <span class="string">'Jack'</span>;</div><div class="line"><span class="built_in">console</span>.log(a.name);      <span class="comment">// Jack</span></div></pre></td></tr></table></figure></p>
+<p>上例中，<code>name</code> 被设置为 <code>public</code>，所以直接访问实例的 name 属性是被允许的。<br>很多时候，我们希望有的属性是无法直接存取的，这时候就要用到 <code>private</code> 了。<br><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">class</span> Animal &#123;</div><div class="line">  <span class="keyword">private</span> name;</div><div class="line">  <span class="keyword">public</span> <span class="keyword">constructor</span>(<span class="params">name</span>) &#123;</div><div class="line">    <span class="keyword">this</span>.name = name;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"><span class="keyword">let</span> a = <span class="keyword">new</span> Animal(<span class="string">'Tom'</span>);</div><div class="line"><span class="built_in">console</span>.log(a.name);     </div><div class="line">a.name = <span class="string">'Jack'</span>;</div><div class="line"><span class="comment">// hello.ts(8,15): error TS2341: Property 'name' is private and only accessible within class 'Animal'.</span></div><div class="line"><span class="comment">// hello.ts(9,3): error TS2341: Property 'name' is private and only accessible within class 'Animal'.</span></div><div class="line"><span class="comment">// hello.ts(10,15): error TS2341: Property 'name' is private and only accessible within class 'Animal'.</span></div></pre></td></tr></table></figure></p>
+<p>需要注意的是，TypeScript编译后的代码中，并没有限制 private 属性再外部的可访问性。下面是编译后的代码：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> Animal = <span class="comment">/** @class */</span> (<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="function"><span class="keyword">function</span> <span class="title">Animal</span>(<span class="params">name</span>) </span>&#123;</div><div class="line">        <span class="keyword">this</span>.name = name;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> Animal;</div><div class="line">&#125;());</div><div class="line"><span class="keyword">var</span> a = <span class="keyword">new</span> Animal(<span class="string">'Tom'</span>);</div><div class="line"><span class="built_in">console</span>.log(a.name);      <span class="comment">// Tom</span></div><div class="line">a.name = <span class="string">'Jack'</span>;</div><div class="line"><span class="built_in">console</span>.log(a.name);      <span class="comment">// Jack</span></div></pre></td></tr></table></figure></p>
+<p>另外，使用 private 修饰的属性或方法在子类中是不允许访问的：<br><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">class</span> Animal &#123;</div><div class="line">  <span class="keyword">private</span> name;</div><div class="line">  <span class="keyword">public</span> <span class="keyword">constructor</span>(<span class="params">name</span>) &#123;</div><div class="line">    <span class="keyword">this</span>.name = name;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"><span class="keyword">class</span> cat <span class="keyword">extends</span> Animal &#123;</div><div class="line">  <span class="keyword">constructor</span>(<span class="params">name</span>) &#123;</div><div class="line">    <span class="keyword">super</span>(name);</div><div class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>.name);</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"><span class="comment">// hello.ts(10,22): error TS2341: Property 'name' is private and only accessible within class 'Animal'.</span></div></pre></td></tr></table></figure></p>
+<p>使用 protected 则允许在子类中访问<br><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">class</span> Animal &#123;</div><div class="line">  <span class="keyword">protected</span> name;</div><div class="line">  <span class="keyword">public</span> <span class="keyword">constructor</span>(<span class="params">name</span>) &#123;</div><div class="line">    <span class="keyword">this</span>.name = name;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"><span class="keyword">class</span> cat <span class="keyword">extends</span> Animal &#123;</div><div class="line">  <span class="keyword">constructor</span>(<span class="params">name</span>) &#123;</div><div class="line">    <span class="keyword">super</span>(name);</div><div class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>.name);</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h5 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a>抽象类</h5><p><code>abstract</code> 用于定义抽象类和其中的抽象方法。</p>
+<p>首先，抽象类不允许被实例化：<br><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">abstract</span> <span class="keyword">class</span> Animal &#123;</div><div class="line">  <span class="keyword">public</span> name;</div><div class="line">  <span class="keyword">public</span> <span class="keyword">constructor</span>(<span class="params">name</span>) &#123;</div><div class="line">    <span class="keyword">this</span>.name = name;</div><div class="line">  &#125;</div><div class="line">  <span class="keyword">public</span> <span class="keyword">abstract</span> sayHi();</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">let</span> a = <span class="keyword">new</span> Animal(<span class="string">'Tom'</span>);</div><div class="line"><span class="comment">// hello.ts(9,9): error TS2511: Cannot create an instance of the abstract class 'Animal'.</span></div><div class="line"><span class="string">``</span><span class="string">` </span></div><div class="line"><span class="string">上面，我们定义了一个抽象类 Animal 和一个抽象方法 sayHi()，在实例化的时候报错了。</span></div><div class="line"><span class="string"></span></div><div class="line"><span class="string">其次，抽象类中的抽象方法不许被子类实现：</span></div><div class="line"><span class="string">`</span><span class="string">``</span> ts</div><div class="line"><span class="keyword">class</span> cat <span class="keyword">extends</span> Animal &#123;</div><div class="line">  <span class="keyword">public</span> eat() &#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">`<span class="subst">$&#123;this.name&#125;</span> is eating.`</span>);</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">let</span> cat1 = <span class="keyword">new</span> cat(<span class="string">'Tom'</span>);</div><div class="line"><span class="comment">// hello.ts(9,7): error TS2515: Non-abstract class 'cat' does not implement inherited abstract member 'sayHi' from class 'Animal'.</span></div></pre></td></tr></table></figure></p>
+<p>我们定义了一个类 cat 继承抽象类 Animal，但没有实现抽象方法 sayHi()，所以编译报错。</p>
+<p>正确方法：<br><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">class</span> cat <span class="keyword">extends</span> Animal &#123;</div><div class="line">  <span class="keyword">public</span> sayHi() &#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">`hello, my name is <span class="subst">$&#123;this.name&#125;</span>`</span>);</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">let</span> cat1 = <span class="keyword">new</span> cat(<span class="string">'Tom'</span>);</div><div class="line">cat1.sayHi();     <span class="comment">// hello, my name is Tom</span></div></pre></td></tr></table></figure></p>
+<h5 id="类的类型"><a href="#类的类型" class="headerlink" title="类的类型"></a>类的类型</h5><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">class</span> Animal &#123;</div><div class="line">  name: <span class="built_in">string</span>;</div><div class="line">  <span class="keyword">constructor</span>(<span class="params">name: <span class="built_in">string</span></span>) &#123;</div><div class="line">    <span class="keyword">this</span>.name = name;</div><div class="line">  &#125;</div><div class="line">  sayHi(): <span class="built_in">string</span> &#123;</div><div class="line">    <span class="keyword">return</span> <span class="string">`My name is <span class="subst">$&#123;this.name&#125;</span>`</span>;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"><span class="keyword">let</span> a: Animal = <span class="keyword">new</span> Animal(<span class="string">'Jack'</span>);</div><div class="line"><span class="built_in">console</span>.log(a.sayHi()); <span class="comment">// My name is Jack</span></div></pre></td></tr></table></figure>
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/JavaScript/" rel="tag"># JavaScript</a>
+          
+            <a href="/tags/TypeScript/" rel="tag"># TypeScript</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/18/泛型/" rel="next" title="TypeScript基础教程 -- 泛型">
+                <i class="fa fa-chevron-left"></i> TypeScript基础教程 -- 泛型
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/tags/小程序/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/tags/小程序/">1</a><span class="page-number current">2</span>
-  </nav>
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -406,8 +516,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/logo.jpg"
@@ -596,6 +715,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#ES6中类的用法"><span class="nav-number">1.</span> <span class="nav-text">ES6中类的用法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#TypeScript中类的用法"><span class="nav-number">2.</span> <span class="nav-text">TypeScript中类的用法</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#public、private和protected"><span class="nav-number">2.1.</span> <span class="nav-text">public、private和protected</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#抽象类"><span class="nav-number">2.2.</span> <span class="nav-text">抽象类</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#类的类型"><span class="nav-number">2.3.</span> <span class="nav-text">类的类型</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -735,6 +870,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
 
   
 

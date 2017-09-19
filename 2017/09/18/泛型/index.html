@@ -110,14 +110,14 @@
 <meta name="description" content="软件工程中，我们不仅要创建一致的良好的API接口，同时也要考虑可重用性。组件不仅能够支持当前的数据类型，同时也支持将来的数据类型，这在创建大型功能时提供了十分灵活的功能。泛型（Generics）是指在定义函数、接口或类的时候，不预先指定具体的类型，而在使用的时候再定义类型的这一特性。可以使用泛型来创建可重用的组件，一个组件支持多种数据类型，用户根据自己的数据类型来使用组件。">
 <meta name="keywords" content="TypeScript,泛型">
 <meta property="og:type" content="article">
-<meta property="og:title" content="泛型">
+<meta property="og:title" content="TypeScript基础教程 -- 泛型">
 <meta property="og:url" content="http://www.cwyaml.top/blog/2017/09/18/泛型/index.html">
 <meta property="og:site_name" content="cwyaml&#39;s Notes">
 <meta property="og:description" content="软件工程中，我们不仅要创建一致的良好的API接口，同时也要考虑可重用性。组件不仅能够支持当前的数据类型，同时也支持将来的数据类型，这在创建大型功能时提供了十分灵活的功能。泛型（Generics）是指在定义函数、接口或类的时候，不预先指定具体的类型，而在使用的时候再定义类型的这一特性。可以使用泛型来创建可重用的组件，一个组件支持多种数据类型，用户根据自己的数据类型来使用组件。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-18T01:50:28.821Z">
+<meta property="og:updated_time" content="2017-09-19T02:54:18.551Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="泛型">
+<meta name="twitter:title" content="TypeScript基础教程 -- 泛型">
 <meta name="twitter:description" content="软件工程中，我们不仅要创建一致的良好的API接口，同时也要考虑可重用性。组件不仅能够支持当前的数据类型，同时也支持将来的数据类型，这在创建大型功能时提供了十分灵活的功能。泛型（Generics）是指在定义函数、接口或类的时候，不预先指定具体的类型，而在使用的时候再定义类型的这一特性。可以使用泛型来创建可重用的组件，一个组件支持多种数据类型，用户根据自己的数据类型来使用组件。">
 
 
@@ -154,7 +154,7 @@
 
 
 
-  <title>泛型 | cwyaml's Notes</title>
+  <title>TypeScript基础教程 -- 泛型 | cwyaml's Notes</title>
   
 
 
@@ -332,7 +332,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">泛型</h1>
+          <h1 class="post-title" itemprop="name headline">TypeScript基础教程 -- 泛型</h1>
         
 
         <div class="post-meta">
@@ -418,6 +418,7 @@
 <p>调用 <code>identity</code> 的时候，传入的 <code>arg</code> 不含 <code>length</code> 在编译阶段就会报错。</p>
 <p>多个类型参数之间也可以互相约束：<br><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">copyFields</span>&lt;<span class="title">T</span> <span class="title">extends</span> <span class="title">U</span>, <span class="title">U</span>&gt; (<span class="params">target: T, source: U</span>): <span class="title">T</span> </span>&#123;</div><div class="line">  <span class="keyword">for</span> (<span class="keyword">let</span> id <span class="keyword">in</span> source) &#123;</div><div class="line">    target[id] = (&lt;T&gt;source)[id];</div><div class="line">  &#125;</div><div class="line">  <span class="keyword">return</span> target;</div><div class="line">&#125;</div><div class="line"><span class="keyword">let</span> x = &#123;a: <span class="number">1</span>, b: <span class="number">2</span>, c: <span class="number">3</span>, d: <span class="number">4</span>&#125;;</div><div class="line">copyFields(x,&#123;b: <span class="number">5</span>&#125;);    <span class="comment">// &#123;a: 1, b: 5, c: 3, d: 4&#125;</span></div></pre></td></tr></table></figure></p>
 <p>我们使用了两个类型参数，其中要求 <code>T</code> 继承 <code>U</code>,这样就保证了 <code>U</code> 上不会出现 <code>T</code> 中不存在的字段。</p>
+<h3 id="泛型接口"><a href="#泛型接口" class="headerlink" title="泛型接口"></a>泛型接口</h3><p>可以使用含有泛型的接口来定义函数的形状：<br><figure class="highlight ts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">interface</span> createArrayFunc &#123;</div><div class="line">  &lt;T&gt;(length: <span class="built_in">number</span>, value: T): <span class="built_in">Array</span>&lt;T&gt;;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">let</span> createArray: creaaeArrayFunc;</div><div class="line">createArray = <span class="function"><span class="keyword">function</span>&lt;<span class="title">T</span>&gt; (<span class="params">length: <span class="built_in">number</span>, value: T</span>): <span class="title">Array</span>&lt;<span class="title">T</span>&gt; </span>&#123;</div><div class="line">  <span class="keyword">let</span> result = [];</div><div class="line">  <span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; length; i++) &#123;</div><div class="line">    result[i] = value;</div><div class="line">  &#125;</div><div class="line">  <span class="keyword">return</span> result;</div><div class="line">&#125;</div><div class="line"></div><div class="line">createArray(<span class="number">3</span>, <span class="string">'hh'</span>);</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -450,8 +451,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/09/07/typescript/" rel="next" title="TypeScript入门教程">
-                <i class="fa fa-chevron-left"></i> TypeScript入门教程
+              <a href="/2017/09/07/typescript/" rel="next" title="TypeScript基础教程 -- 数据类型">
+                <i class="fa fa-chevron-left"></i> TypeScript基础教程 -- 数据类型
               </a>
             
           </div>
@@ -459,6 +460,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/09/19/类与接口/" rel="prev" title="TypeScript基础教程 -- 类">
+                TypeScript基础教程 -- 类 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -533,7 +538,7 @@
             
               <a href="/archives || calendar-check-o">
             
-                <span class="site-state-item-count">35</span>
+                <span class="site-state-item-count">36</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -570,31 +575,17 @@
               RSS
             </a>
             <a title="一共有四首歌^_^" rel="alternate" class="mw-harlem_shake_slow wobble shake" href='javascript:(
-    /*
-     * Copyright (C) 2015 Rocko (rocko.xyz) <rocko.zxp@gmail.com>
-     *
-     * Licensed under the Apache License, Version 2.0 (the "License");
-     * you may not use this file except in compliance with the License.
-     * You may obtain a copy of the License at
-     *
-     *      http://www.apache.org/licenses/LICENSE-2.0
-     *
-     * Unless required by applicable law or agreed to in writing, software
-     * distributed under the License is distributed on an "AS IS" BASIS,
-     * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     * See the License for the specific language governing permissions and
-     * limitations under the License.
-     */
+    
     function go() {
 
       var songs = [
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E8%B4%B0%E4%BD%B0%20-%20%E5%98%BF%EF%BC%8C%E6%8A%AC%E5%A4%B4%EF%BC%81.mp3?Expires=1505703893&OSSAccessKeyId=TMP.AQEBbrzpquTmsnLL2E6FIetDpZJkXgYXo0xLAIiPhApj8yOIhztO-2dRbAw4ADAtAhUAyuPT1QhfwGcs00HwxhCUMbwqN8ACFC_DnCYHEwY4XxmHtiwv_542MjUC&Signature=FPIZTRGtcdPFl4jHUjVniAQoH7E%3D",
+          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E8%B4%B0%E4%BD%B0%20-%20%E5%98%BF%EF%BC%8C%E6%8A%AC%E5%A4%B4%EF%BC%81.mp3?Expires=1505792925&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=1Rk2l7QyEaZciHdlsavMhaE8b8E%3D",
 
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E6%8C%87%E5%8D%97%E9%92%88%20-%20%E6%97%A0%E6%B3%95%E9%80%83%E8%84%B1.mp3?Expires=1505703979&OSSAccessKeyId=TMP.AQEBbrzpquTmsnLL2E6FIetDpZJkXgYXo0xLAIiPhApj8yOIhztO-2dRbAw4ADAtAhUAyuPT1QhfwGcs00HwxhCUMbwqN8ACFC_DnCYHEwY4XxmHtiwv_542MjUC&Signature=heS7NoRRWrxYXUl4yb2LuAbM7oM%3D",
+          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E6%8C%87%E5%8D%97%E9%92%88%20-%20%E6%97%A0%E6%B3%95%E9%80%83%E8%84%B1.mp3?Expires=1505792945&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=31nmI8I%2BqgXoLPh3eQ%2FZteOh8ZQ%3D",
 
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E9%A3%8E%E5%B0%8F%E7%AD%9D%20-%20%E9%A3%8E%E7%AD%9D%E8%AF%AF%EF%BC%88Cover%20%E5%88%98%E7%8F%82%E7%9F%A3%EF%BC%89.mp3?Expires=1505704006&OSSAccessKeyId=TMP.AQEBbrzpquTmsnLL2E6FIetDpZJkXgYXo0xLAIiPhApj8yOIhztO-2dRbAw4ADAtAhUAyuPT1QhfwGcs00HwxhCUMbwqN8ACFC_DnCYHEwY4XxmHtiwv_542MjUC&Signature=etkJQrKcsJrhq0a9PYdpw%2FLhX9w%3D",
+          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E9%A3%8E%E5%B0%8F%E7%AD%9D%20-%20%E9%A3%8E%E7%AD%9D%E8%AF%AF%EF%BC%88Cover%20%E5%88%98%E7%8F%82%E7%9F%A3%EF%BC%89.mp3?Expires=1505792966&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=4IKcmqITk2dStn2XT%2F3wwOfZC84%3D",
 
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E8%B5%B5%E9%9B%B7%20-%20%E4%B8%89%E5%8D%81%E5%B2%81%E7%9A%84%E5%A5%B3%E4%BA%BA.mp3?Expires=1505704029&OSSAccessKeyId=TMP.AQEBbrzpquTmsnLL2E6FIetDpZJkXgYXo0xLAIiPhApj8yOIhztO-2dRbAw4ADAtAhUAyuPT1QhfwGcs00HwxhCUMbwqN8ACFC_DnCYHEwY4XxmHtiwv_542MjUC&Signature=oGoJsvKfB0SeR63qSWFOZKX0PIY%3D",
+          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E8%B5%B5%E9%9B%B7%20-%20%E4%B8%89%E5%8D%81%E5%B2%81%E7%9A%84%E5%A5%B3%E4%BA%BA.mp3?Expires=1505792990&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=tmQNPMIeGxc1b85oId2uzWffUKg%3D",
 
           "......"
       ];
@@ -728,7 +719,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#简单的例子"><span class="nav-number">1.</span> <span class="nav-text">简单的例子</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#多个类型参数"><span class="nav-number">2.</span> <span class="nav-text">多个类型参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#泛型约束"><span class="nav-number">3.</span> <span class="nav-text">泛型约束</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#简单的例子"><span class="nav-number">1.</span> <span class="nav-text">简单的例子</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#多个类型参数"><span class="nav-number">2.</span> <span class="nav-text">多个类型参数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#泛型约束"><span class="nav-number">3.</span> <span class="nav-text">泛型约束</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#泛型接口"><span class="nav-number">4.</span> <span class="nav-text">泛型接口</span></a></li></ol></div>
             
 
           </div>

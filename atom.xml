@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cwyaml.top/blog/"/>
-  <updated>2017-09-18T01:50:28.821Z</updated>
+  <updated>2017-09-19T02:53:37.669Z</updated>
   <id>http://www.cwyaml.top/blog/</id>
   
   <author>
@@ -16,11 +16,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>泛型</title>
+    <title>TypeScript基础教程 -- 类</title>
+    <link href="http://www.cwyaml.top/blog/2017/09/19/%E7%B1%BB%E4%B8%8E%E6%8E%A5%E5%8F%A3/"/>
+    <id>http://www.cwyaml.top/blog/2017/09/19/类与接口/</id>
+    <published>2017-09-19T02:47:52.000Z</published>
+    <updated>2017-09-19T02:53:37.669Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;传统方法中，我们通过构造函数实现类的概念，通过原型链实现继承。而在 ES6 中，我们终于迎来了 &lt;code&gt;class&lt;/code&gt;。TypeScript 除了实现了所有 ES6 中的类的功能以外，还添加了一些新的用法。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="JavaScript学习笔记" scheme="http://www.cwyaml.top/blog/categories/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="JavaScript" scheme="http://www.cwyaml.top/blog/tags/JavaScript/"/>
+    
+      <category term="TypeScript" scheme="http://www.cwyaml.top/blog/tags/TypeScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TypeScript基础教程 -- 泛型</title>
     <link href="http://www.cwyaml.top/blog/2017/09/18/%E6%B3%9B%E5%9E%8B/"/>
     <id>http://www.cwyaml.top/blog/2017/09/18/泛型/</id>
     <published>2017-09-18T01:10:44.000Z</published>
-    <updated>2017-09-18T01:50:28.821Z</updated>
+    <updated>2017-09-19T02:54:18.551Z</updated>
     
     <summary type="html">
     
@@ -38,17 +60,17 @@
   </entry>
   
   <entry>
-    <title>TypeScript入门教程</title>
+    <title>TypeScript基础教程 -- 数据类型</title>
     <link href="http://www.cwyaml.top/blog/2017/09/07/typescript/"/>
     <id>http://www.cwyaml.top/blog/2017/09/07/typescript/</id>
     <published>2017-09-07T14:15:52.000Z</published>
-    <updated>2017-09-13T10:05:40.545Z</updated>
+    <updated>2017-09-19T02:46:06.109Z</updated>
     
     <summary type="html">
     
       &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/typescript.jpg&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;什么是TypeScript&quot;&gt;&lt;a href=&quot;#什么是TypeScript&quot; class=&quot;headerlink&quot; title=&quot;什么是TypeScript&quot;&gt;&lt;/a&gt;什么是TypeScript&lt;/h3&gt;&lt;p&gt;首先，我对TypeScript的理解如下：&lt;br&gt;TypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。&lt;/p&gt;
+&lt;h3 id=&quot;什么是TypeScript&quot;&gt;&lt;a href=&quot;#什么是TypeScript&quot; class=&quot;headerlink&quot; title=&quot;什么是TypeScript&quot;&gt;&lt;/a&gt;什么是TypeScript&lt;/h3&gt;&lt;p&gt;TypeScript是JavaScript的一个超集，主要提供了类型系统和对ES6的支持，它有Microsoft开发，代码开源在github上。&lt;/p&gt;
     
     </summary>
     
@@ -440,30 +462,6 @@
       <category term="Flex" scheme="http://www.cwyaml.top/blog/tags/Flex/"/>
     
       <category term="网页布局" scheme="http://www.cwyaml.top/blog/tags/%E7%BD%91%E9%A1%B5%E5%B8%83%E5%B1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【转】技术的边界 - ruanyf</title>
-    <link href="http://www.cwyaml.top/blog/2017/04/06/%E8%BD%AC1/"/>
-    <id>http://www.cwyaml.top/blog/2017/04/06/转1/</id>
-    <published>2017-04-06T08:04:36.000Z</published>
-    <updated>2017-08-29T00:34:20.311Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;去年，网上流传一则趣闻：美国圣昆廷州立监狱安排囚犯学习编程，完成学习的犯人出狱后，没有一个人重新犯罪被抓回监狱。一位刚刚出狱的囚犯说：”太可怕了，我宁愿在外面饿死也不想再进去学编程了。”后面那句话是网友杜撰的，但是程序员圈子里，大家依然把它当作笑话转发。”你看，编程多痛苦，还不如坐牢呢。” 我一直忘不了这个段子，觉得它是一个很好的象征：&lt;strong&gt;当代社会就像一座机器组成的监狱，学会技术可以摆脱牢房。&lt;/strong&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="转载优质文章" scheme="http://www.cwyaml.top/blog/categories/%E8%BD%AC%E8%BD%BD%E4%BC%98%E8%B4%A8%E6%96%87%E7%AB%A0/"/>
-    
-    
-      <category term="转载" scheme="http://www.cwyaml.top/blog/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
-      <category term="ruanyf" scheme="http://www.cwyaml.top/blog/tags/ruanyf/"/>
-    
-      <category term="思考" scheme="http://www.cwyaml.top/blog/tags/%E6%80%9D%E8%80%83/"/>
     
   </entry>
   
