@@ -222,11 +222,12 @@
     <link href="http://www.cwyaml.top/blog/2017/06/06/div-%E6%A8%A1%E6%8B%9F-textarea/"/>
     <id>http://www.cwyaml.top/blog/2017/06/06/div-模拟-textarea/</id>
     <published>2017-06-06T14:23:58.000Z</published>
-    <updated>2017-08-29T07:59:56.190Z</updated>
+    <updated>2017-09-19T09:58:13.824Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;&lt;strong&gt;textarea&lt;/strong&gt; 是一个表单元素，用于多行文字的输入。在web应用上常见的是： 评论输入框，微博输入框等。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0%25E5%2586%2585%25E5%259B%25BE%25E7%2589%2587/div%2Btextarea.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -440,17 +441,17 @@
   </entry>
   
   <entry>
-    <title>Flex布局介绍</title>
+    <title>Flex盒子布局简介</title>
     <link href="http://www.cwyaml.top/blog/2017/04/18/Flex%E5%B8%83%E5%B1%80/"/>
     <id>http://www.cwyaml.top/blog/2017/04/18/Flex布局/</id>
     <published>2017-04-18T05:08:44.000Z</published>
-    <updated>2017-08-29T01:29:54.613Z</updated>
+    <updated>2017-09-19T10:07:59.395Z</updated>
     
     <summary type="html">
     
-      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://on5sixmz1.bkt.clouddn.com/bg2015071002.png&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;out-img-topic&quot;&gt;&lt;img src=&quot;http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0logo/flex.png&quot; alt=&quot;markdown&quot;&gt;&lt;/div&gt;
 
-&lt;p&gt;网页布局（layout）是CSS的一个重点应用。&lt;/p&gt;
+&lt;p&gt;网页布局（layout）是CSS的一个重点应用。布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。&lt;/p&gt;
     
     </summary>
     

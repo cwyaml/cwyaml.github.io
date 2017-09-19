@@ -107,18 +107,17 @@
 
 
 
-<meta name="description" content="网页布局（layout）是CSS的一个重点应用。">
+<meta name="description" content="网页布局（layout）是CSS的一个重点应用。布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。">
 <meta name="keywords" content="CSS3,Flex,网页布局">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Flex布局介绍">
+<meta property="og:title" content="Flex盒子布局简介">
 <meta property="og:url" content="http://www.cwyaml.top/blog/2017/04/18/Flex布局/index.html">
 <meta property="og:site_name" content="cwyaml&#39;s Notes">
-<meta property="og:description" content="网页布局（layout）是CSS的一个重点应用。">
+<meta property="og:description" content="网页布局（layout）是CSS的一个重点应用。布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://on5sixmz1.bkt.clouddn.com/bg2015071002.png">
-<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/4030390-13015fbe57106095.gif?imageMogr2/auto-orient/strip">
-<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/4030390-905fa1d77a0e3647.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/4030390-ee9d084c5f915913.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0logo/flex.png">
+<meta property="og:image" content="http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0%25E5%2586%2585%25E5%259B%25BE%25E7%2589%2587/flex01.gif">
+<meta property="og:image" content="http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0%25E5%2586%2585%25E5%259B%25BE%25E7%2589%2587/flex02.png">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/4030390-7494867e2ca79522.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/4030390-b6824412b2fc6cfd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/4030390-22a5288d502b1494.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
@@ -130,11 +129,11 @@
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/4030390-a4e50c17672c4694.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/4030390-17bddcf05c7765b8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/4030390-9e11f9dac115633b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2017-08-29T01:29:54.613Z">
+<meta property="og:updated_time" content="2017-09-19T10:07:59.395Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Flex布局介绍">
-<meta name="twitter:description" content="网页布局（layout）是CSS的一个重点应用。">
-<meta name="twitter:image" content="http://on5sixmz1.bkt.clouddn.com/bg2015071002.png">
+<meta name="twitter:title" content="Flex盒子布局简介">
+<meta name="twitter:description" content="网页布局（layout）是CSS的一个重点应用。布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。">
+<meta name="twitter:image" content="http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0logo/flex.png">
 
 
 
@@ -170,7 +169,7 @@
 
 
 
-  <title>Flex布局介绍 | cwyaml's Notes</title>
+  <title>Flex盒子布局简介 | cwyaml's Notes</title>
   
 
 
@@ -348,7 +347,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Flex布局介绍</h1>
+          <h1 class="post-title" itemprop="name headline">Flex盒子布局简介</h1>
         
 
         <div class="post-meta">
@@ -423,21 +422,19 @@
       
 
       
-        <div class="out-img-topic"><img src="http://on5sixmz1.bkt.clouddn.com/bg2015071002.png" alt="markdown"></div>
+        <div class="out-img-topic"><img src="http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0logo/flex.png" alt="markdown"></div>
 
-<p>网页布局（layout）是CSS的一个重点应用。</p>
+<p>网页布局（layout）是CSS的一个重点应用。布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</p>
 <a id="more"></a>
-<p><img src="http://upload-images.jianshu.io/upload_images/4030390-13015fbe57106095.gif?imageMogr2/auto-orient/strip" alt="layout"></p>
-<p>布局的传统解决方案，基于盒状模型，依赖 display属性 + position属性 + float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。</p>
+<p><img src="http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0%25E5%2586%2585%25E5%259B%25BE%25E7%2589%2587/flex01.gif" alt="layout"></p>
 <p>2009年，W3C提出了一种新的方案—-<strong>Flex布局</strong>，可以简便、完整、响应式地实现各种页面布局。目前，它已经得到了所有浏览器的支持，这意味着，现在就能很安全地使用这项功能。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/4030390-905fa1d77a0e3647.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="css Flexbox"></p>
 <h2 id="Flex布局是什么？"><a href="#Flex布局是什么？" class="headerlink" title="Flex布局是什么？"></a>Flex布局是什么？</h2><p>Flex 是 Flexible Box 的缩写，意为“弹性布局”，用来为盒状模型那个最大的灵活性。</p>
 <p>任何一个容器都可以指定为 Flex 布局。<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.box</span>&#123;</div><div class="line">  <span class="attribute">display</span>: flex;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>包括行内元素也可以<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.box</span>&#123;</div><div class="line">  <span class="attribute">display</span>: inline-flex;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>Webkit 内核的浏览器最好加上 <code>-webkit</code> 前缀。<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.box</span>&#123;</div><div class="line">  <span class="attribute">display</span>: flex;</div><div class="line">  <span class="attribute">display</span>: -webkit-flex;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p><strong>注意：</strong> 设置为 Flex 布局后所有子元素的 <code>float</code>、<code>clean</code> 和 <code>vertical-align</code> 属性都将失效</p>
 <h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p>采用 Flex 布局的元素，称为 Flex 容器（flex container），简称“容器”。它的所有子元素自动成为容器的成员，成为 Flex 项目（flex item），简称“项目”。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/4030390-ee9d084c5f915913.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="flexBox模型"></p>
+<p><img src="http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0%25E5%2586%2585%25E5%259B%25BE%25E7%2589%2587/flex02.png" alt="flexBox模型"></p>
 <p>容器默认存在两根轴：水平主轴（main axis） 和 垂直的交叉轴（cross axis）。</p>
 <p>主轴开始的位置叫做 <code>main start</code>，结束的位置叫做 <code>main end</code>;教学和周开始的位置叫做 <code>cross start</code>，结束的位置叫做 <code>cross end</code>。<br>项目默认沿主轴排列。单个项目占据的主轴空间叫做 <code>main size</code>，占据的交叉轴空间叫做 <code>cross size</code>。</p>
 <h2 id="容器的属性"><a href="#容器的属性" class="headerlink" title="容器的属性"></a>容器的属性</h2><p>容器的属性一共有 6 个：</p>
@@ -688,13 +685,13 @@
     function go() {
 
       var songs = [
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E8%B4%B0%E4%BD%B0%20-%20%E5%98%BF%EF%BC%8C%E6%8A%AC%E5%A4%B4%EF%BC%81.mp3?Expires=1505792925&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=1Rk2l7QyEaZciHdlsavMhaE8b8E%3D",
+          "http://cwyamltop-1253230521.cossh.myqcloud.com/music/%E8%B4%B0%E4%BD%B0%20-%20%E5%98%BF%EF%BC%8C%E6%8A%AC%E5%A4%B4%EF%BC%81.mp3",
 
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E6%8C%87%E5%8D%97%E9%92%88%20-%20%E6%97%A0%E6%B3%95%E9%80%83%E8%84%B1.mp3?Expires=1505792945&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=31nmI8I%2BqgXoLPh3eQ%2FZteOh8ZQ%3D",
+          "http://cwyamltop-1253230521.cossh.myqcloud.com/music/%E6%8C%87%E5%8D%97%E9%92%88%20-%20%E6%97%A0%E6%B3%95%E9%80%83%E8%84%B1.mp3",
 
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E9%A3%8E%E5%B0%8F%E7%AD%9D%20-%20%E9%A3%8E%E7%AD%9D%E8%AF%AF%EF%BC%88Cover%20%E5%88%98%E7%8F%82%E7%9F%A3%EF%BC%89.mp3?Expires=1505792966&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=4IKcmqITk2dStn2XT%2F3wwOfZC84%3D",
+          "http://cwyamltop-1253230521.cossh.myqcloud.com/music/%E9%A3%8E%E5%B0%8F%E7%AD%9D%20-%20%E9%A3%8E%E7%AD%9D%E8%AF%AF%EF%BC%88Cover%20%E5%88%98%E7%8F%82%E7%9F%A3%EF%BC%89.mp3",
 
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E8%B5%B5%E9%9B%B7%20-%20%E4%B8%89%E5%8D%81%E5%B2%81%E7%9A%84%E5%A5%B3%E4%BA%BA.mp3?Expires=1505792990&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=tmQNPMIeGxc1b85oId2uzWffUKg%3D",
+          "http://cwyamltop-1253230521.cossh.myqcloud.com/music/%E9%A3%8E%E5%B0%8F%E7%AD%9D%20-%20%E9%A3%8E%E7%AD%9D%E8%AF%AF%EF%BC%88Cover%20%E5%88%98%E7%8F%82%E7%9F%A3%EF%BC%89.mp3",
 
           "......"
       ];

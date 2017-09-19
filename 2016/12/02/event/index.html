@@ -115,13 +115,13 @@
 <meta property="og:site_name" content="cwyaml&#39;s Notes">
 <meta property="og:description" content="Javascript 和 HTML 之间的交互是通过 事件 来实现的。最早在 IE 中出现，被作为分担服务器端运算负载的一种手段。到现在，几乎所有的浏览器都支持事件处理。在 DOM2 级中得到规范。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://on5sixmz1.bkt.clouddn.com/event1.png">
-<meta property="og:image" content="http://on5sixmz1.bkt.clouddn.com/event03.png">
-<meta property="og:updated_time" content="2017-08-29T00:52:33.958Z">
+<meta property="og:image" content="http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0logo/event1.png">
+<meta property="og:image" content="http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0%25E5%2586%2585%25E5%259B%25BE%25E7%2589%2587/event01.png">
+<meta property="og:updated_time" content="2017-09-19T10:00:27.352Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaScript - 事件总结">
 <meta name="twitter:description" content="Javascript 和 HTML 之间的交互是通过 事件 来实现的。最早在 IE 中出现，被作为分担服务器端运算负载的一种手段。到现在，几乎所有的浏览器都支持事件处理。在 DOM2 级中得到规范。">
-<meta name="twitter:image" content="http://on5sixmz1.bkt.clouddn.com/event1.png">
+<meta name="twitter:image" content="http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0logo/event1.png">
 
 
 
@@ -410,12 +410,12 @@
       
 
       
-        <div class="out-img-topic"><img src="http://on5sixmz1.bkt.clouddn.com/event1.png" alt="markdown"></div>
+        <div class="out-img-topic"><img src="http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0logo/event1.png" alt="markdown"></div>
 
 <p>Javascript 和 HTML 之间的交互是通过 <strong>事件</strong> 来实现的。最早在 IE 中出现，被作为分担服务器端运算负载的一种手段。到现在，几乎所有的浏览器都支持事件处理。在 DOM2 级中得到规范。</p>
 <a id="more"></a>
 <h2 id="事件流"><a href="#事件流" class="headerlink" title="事件流"></a>事件流</h2><p><strong>事件流</strong> 描述的是从页面中接受事件的顺序。IE 和 Netscape 提出了完全相反的事件流概念。<br><strong>事件冒泡：</strong> IE 中的事件流叫做 <strong>事件冒泡</strong> ,即从最具体的元素逐级向外传播到较不具体的元素。（所有现代浏览器都支持事件冒泡）<br><strong>事件捕获：</strong> Netscape 提出了另一种事件流叫做 <strong>事件捕获</strong> 。他们的思想是最具体的元素应该最后接受到事件，所以事件捕获是 “从外向内” 传播的。<br><strong>DOM事件流：</strong> “DOM2级事件”规定了事件流包括三个阶段：首先发生事件捕获，然后是实际的目标接受到事件，最后一个阶段是事件冒泡。</p>
-<p><img src="http://on5sixmz1.bkt.clouddn.com/event03.png" alt="markdown"></p>
+<p><img src="http://cwyamltop-1253230521.cossh.myqcloud.com/%25E6%2596%2587%25E7%25AB%25A0%25E5%2586%2585%25E5%259B%25BE%25E7%2589%2587/event01.png" alt="markdown"></p>
 <blockquote>
 <p><span id="inline-blue"> <strong>汇总：</strong></span> IE8及更早的版本不支持 DOM2 级事件流。</p>
 </blockquote>
@@ -697,13 +697,13 @@
     function go() {
 
       var songs = [
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E8%B4%B0%E4%BD%B0%20-%20%E5%98%BF%EF%BC%8C%E6%8A%AC%E5%A4%B4%EF%BC%81.mp3?Expires=1505792925&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=1Rk2l7QyEaZciHdlsavMhaE8b8E%3D",
+          "http://cwyamltop-1253230521.cossh.myqcloud.com/music/%E8%B4%B0%E4%BD%B0%20-%20%E5%98%BF%EF%BC%8C%E6%8A%AC%E5%A4%B4%EF%BC%81.mp3",
 
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E6%8C%87%E5%8D%97%E9%92%88%20-%20%E6%97%A0%E6%B3%95%E9%80%83%E8%84%B1.mp3?Expires=1505792945&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=31nmI8I%2BqgXoLPh3eQ%2FZteOh8ZQ%3D",
+          "http://cwyamltop-1253230521.cossh.myqcloud.com/music/%E6%8C%87%E5%8D%97%E9%92%88%20-%20%E6%97%A0%E6%B3%95%E9%80%83%E8%84%B1.mp3",
 
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E9%A3%8E%E5%B0%8F%E7%AD%9D%20-%20%E9%A3%8E%E7%AD%9D%E8%AF%AF%EF%BC%88Cover%20%E5%88%98%E7%8F%82%E7%9F%A3%EF%BC%89.mp3?Expires=1505792966&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=4IKcmqITk2dStn2XT%2F3wwOfZC84%3D",
+          "http://cwyamltop-1253230521.cossh.myqcloud.com/music/%E9%A3%8E%E5%B0%8F%E7%AD%9D%20-%20%E9%A3%8E%E7%AD%9D%E8%AF%AF%EF%BC%88Cover%20%E5%88%98%E7%8F%82%E7%9F%A3%EF%BC%89.mp3",
 
-          "http://cwyamltop.oss-cn-beijing.aliyuncs.com/music/%E8%B5%B5%E9%9B%B7%20-%20%E4%B8%89%E5%8D%81%E5%B2%81%E7%9A%84%E5%A5%B3%E4%BA%BA.mp3?Expires=1505792990&OSSAccessKeyId=TMP.AQE6thbm9ZCVKmhQpmauySOroNOJpOfwf5jAt2oRJM71tBUKRbknNbIsAVC0ADAtAhQ3hnou4Trd5NFCMJ--iQx2kYmJNgIVAIUXQsR-xs9TsSLtpG_RrXJ_M7x-&Signature=tmQNPMIeGxc1b85oId2uzWffUKg%3D",
+          "http://cwyamltop-1253230521.cossh.myqcloud.com/music/%E9%A3%8E%E5%B0%8F%E7%AD%9D%20-%20%E9%A3%8E%E7%AD%9D%E8%AF%AF%EF%BC%88Cover%20%E5%88%98%E7%8F%82%E7%9F%A3%EF%BC%89.mp3",
 
           "......"
       ];
